@@ -1,0 +1,84 @@
+/* ============================================
+   THEMES — Light / Dark + Accent Colors
+   ============================================ */
+
+/* ---------- Light theme (default) ---------- */
+:root, [data-theme="light"] {
+  --bg-primary: #F7F8FA;
+  --bg-secondary: #FFFFFF;
+  --bg-card: #FFFFFF;
+  --bg-sidebar: #FFFFFF;
+  --bg-hover: #F0F1F5;
+  --bg-glass: rgba(255,255,255,.72);
+  --bg-badge: #EDEEF2;
+
+  --text-primary: #1A1D26;
+  --text-secondary: #4A5068;
+  --text-tertiary: #8B91A8;
+
+  --border: #E2E4EA;
+  --border-glass: rgba(226,228,234,.6);
+
+  --shadow-sm: 0 1px 3px rgba(0,0,0,.06);
+  --shadow-md: 0 4px 12px rgba(0,0,0,.08);
+  --shadow-lg: 0 8px 30px rgba(0,0,0,.1);
+
+  --color-success: #22C55E;
+  --color-success-soft: rgba(34,197,94,.1);
+  --color-warning: #F59E0B;
+  --color-warning-soft: rgba(245,158,11,.1);
+  --color-error: #EF4444;
+  --color-error-soft: rgba(239,68,68,.1);
+
+  /* Accent — default violet */
+  --accent-h: 252;
+  --accent-s: 85%;
+  --accent-l: 60%;
+  --accent: hsl(var(--accent-h), var(--accent-s), var(--accent-l));
+  --accent-soft: hsla(var(--accent-h), var(--accent-s), var(--accent-l), .1);
+  --accent-shadow: hsla(var(--accent-h), var(--accent-s), var(--accent-l), .25);
+  --accent-gradient: linear-gradient(135deg,
+    hsl(var(--accent-h), var(--accent-s), var(--accent-l)),
+    hsl(calc(var(--accent-h) + 30), var(--accent-s), calc(var(--accent-l) - 8%))
+  );
+}
+
+/* ---------- Dark theme ---------- */
+[data-theme="dark"] {
+  --bg-primary: #0F1117;
+  --bg-secondary: #161820;
+  --bg-card: #1A1D28;
+  --bg-sidebar: #13151D;
+  --bg-hover: #22252F;
+  --bg-glass: rgba(26,29,40,.78);
+  --bg-badge: #2A2D3A;
+
+  --text-primary: #E8EAF0;
+  --text-secondary: #9CA3B8;
+  --text-tertiary: #636A82;
+
+  --border: #2A2D3A;
+  --border-glass: rgba(42,45,58,.6);
+
+  --shadow-sm: 0 1px 3px rgba(0,0,0,.3);
+  --shadow-md: 0 4px 12px rgba(0,0,0,.4);
+  --shadow-lg: 0 8px 30px rgba(0,0,0,.5);
+
+  --color-success: #4ADE80;
+  --color-success-soft: rgba(74,222,128,.12);
+  --color-warning: #FBBF24;
+  --color-warning-soft: rgba(251,191,36,.12);
+  --color-error: #F87171;
+  --color-error-soft: rgba(248,113,113,.12);
+}
+
+/* ---------- Accent color presets ---------- */
+/* Applied via JS: document.documentElement.style.setProperty('--accent-h', value) */
+
+/* Violet (default)  => --accent-h: 252 */
+/* Blue              => --accent-h: 217 */
+/* Teal              => --accent-h: 172 */
+/* Emerald           => --accent-h: 160 */
+/* Rose              => --accent-h: 350 */
+/* Amber             => --accent-h: 38  */
+/* Orange            => --accent-h: 24  */

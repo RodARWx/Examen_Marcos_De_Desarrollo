@@ -1,0 +1,1768 @@
+{
+    "curso": "Desarrollo de Sistemas de Información",
+    "parte": "2 de 2",
+    "semanas": [
+        {
+            "id": 7,
+            "titulo": "Introducción a la Ingeniería de Requerimientos",
+            "resumen": "La Ingeniería de Requerimientos es el proceso fundamental y actúa como el contrato entre el cliente y el desarrollador. Se divide en cuatro etapas: descubrir, analizar, documentar y verificar las necesidades. Se establece una clara diferencia entre los requerimientos funcionales (lo que el sistema debe hacer, como servicios y comportamientos) y los requerimientos no funcionales (cómo debe comportarse el sistema, abarcando rendimiento, seguridad y fiabilidad). El proceso de elicitación utiliza técnicas como entrevistas, cuestionarios, observación in situ y talleres JAD, donde el analista actúa como traductor entre el lenguaje natural del usuario y el técnico del sistema. La evaluación de viabilidad (técnica, económica y operativa) es un filtro esencial antes de iniciar la programación. Finalmente, se destaca la validación temprana mediante prototipos y la gestión formal de cambios a través de matrices de trazabilidad para evitar ambigüedades, errores comunes y sobrecostes.",
+            "palabrasClave": [
+                "Ingeniería de Requerimientos",
+                "Requerimientos Funcionales",
+                "Requerimientos No Funcionales",
+                "Elicitación",
+                "Viabilidad",
+                "Trazabilidad",
+                "Talleres JAD"
+            ],
+            "conceptos": [
+                {
+                    "nombre": "Ingeniería de Requerimientos",
+                    "definicion": "El proceso de definir qué debe hacer el software y bajo qué reglas debe funcionar, estableciendo un contrato entre cliente y desarrollador."
+                },
+                {
+                    "nombre": "Requerimientos Funcionales",
+                    "definicion": "Describen las funciones y comportamientos específicos que el sistema debe realizar (el 'Qué')."
+                },
+                {
+                    "nombre": "Requerimientos No Funcionales",
+                    "definicion": "Definen cómo debe comportarse el sistema, estableciendo métricas de calidad, rendimiento, seguridad y restricciones."
+                },
+                {
+                    "nombre": "Elicitación",
+                    "definicion": "Fase inicial de descubrimiento de necesidades utilizando herramientas como entrevistas, cuestionarios, observación y talleres JAD."
+                },
+                {
+                    "nombre": "Viabilidad",
+                    "definicion": "Evaluación técnica, económica y operativa que determina si el sistema puede y debe construirse antes de invertir recursos en su desarrollo."
+                }
+            ],
+            "preguntas": [
+                {
+                    "id": "7.1",
+                    "tema": "Ingeniería de Requerimientos",
+                    "semana": 7,
+                    "nivel": "Fácil",
+                    "tipo": "Selección múltiple",
+                    "pregunta": "¿Qué función principal cumple la Ingeniería de Requerimientos en un proyecto?",
+                    "opciones": [
+                        "Escribir el código en la base de datos.",
+                        "Funcionar como un contrato legal y técnico entre el cliente y el desarrollador.",
+                        "Instalar el hardware en la empresa."
+                    ],
+                    "respuestaCorrecta": "Funcionar como un contrato legal y técnico entre el cliente y el desarrollador.",
+                    "retroalimentacion": "Correcto. Si esta fase falla, todo el software falla, pues no resolverá el problema real.",
+                    "explicacion": "Es el proceso de definir qué debe hacer el software y actúa como contrato formal antes de la construcción.",
+                    "conceptoRelacionado": "Ingeniería de Requerimientos"
+                },
+                {
+                    "id": "7.2",
+                    "tema": "Clasificación de Requerimientos",
+                    "semana": 7,
+                    "nivel": "Fácil",
+                    "tipo": "Verdadero/Falso",
+                    "pregunta": "Los requerimientos funcionales definen cómo debe comportarse el sistema en cuanto a velocidad y seguridad.",
+                    "opciones": [
+                        "Verdadero",
+                        "Falso"
+                    ],
+                    "respuestaCorrecta": "Falso",
+                    "retroalimentacion": "Bien. Esa es la definición de requerimientos NO funcionales.",
+                    "explicacion": "Los funcionales definen qué hace el sistema (acciones). Los no funcionales definen el rendimiento y la seguridad (el cómo).",
+                    "conceptoRelacionado": "Requerimientos Funcionales"
+                },
+                {
+                    "id": "7.3",
+                    "tema": "Clasificación de Requerimientos",
+                    "semana": 7,
+                    "nivel": "Fácil",
+                    "tipo": "Completar la oración",
+                    "pregunta": "Un requerimiento que exige que 'el sistema posea un cifrado AES-256' es un claro ejemplo de un requerimiento ________.",
+                    "opciones": [
+                        "Funcional",
+                        "De Usabilidad",
+                        "No Funcional de Seguridad"
+                    ],
+                    "respuestaCorrecta": "No Funcional de Seguridad",
+                    "retroalimentacion": "Correcto. Protege el sistema y define una restricción técnica.",
+                    "explicacion": "Los atributos de calidad, como la seguridad mediante cifrado, son requerimientos no funcionales.",
+                    "conceptoRelacionado": "Requerimientos No Funcionales"
+                },
+                {
+                    "id": "7.4",
+                    "tema": "Proceso de Elicitación",
+                    "semana": 7,
+                    "nivel": "Fácil",
+                    "tipo": "Verdadero/Falso",
+                    "pregunta": "La observación in situ consiste en analizar los procesos actuales de la empresa en funcionamiento real para descubrir excepciones ocultas.",
+                    "opciones": [
+                        "Verdadero",
+                        "Falso"
+                    ],
+                    "respuestaCorrecta": "Verdadero",
+                    "retroalimentacion": "Exacto. Ver cómo trabaja la gente revela necesidades no escritas.",
+                    "explicacion": "La observación permite un estudio en sitio de los procesos reales para descubrir necesidades no explícitas.",
+                    "conceptoRelacionado": "Elicitación"
+                },
+                {
+                    "id": "7.5",
+                    "tema": "Evaluación de Viabilidad",
+                    "semana": 7,
+                    "nivel": "Fácil",
+                    "tipo": "Relacionar columnas",
+                    "pregunta": "Relaciona el tipo de viabilidad con su pregunta clave: 1. Técnica, 2. Económica, 3. Operativa con A. ¿Los usuarios lo adoptarán?, B. ¿Tenemos la tecnología para construirlo?, C. ¿El beneficio supera los costos?",
+                    "opciones": [
+                        "1-C, 2-A, 3-B",
+                        "1-B, 2-C, 3-A",
+                        "1-A, 2-B, 3-C"
+                    ],
+                    "respuestaCorrecta": "1-B, 2-C, 3-A",
+                    "retroalimentacion": "Excelente. Técnica (tecnología), Económica (costos), Operativa (adopción del usuario).",
+                    "explicacion": "Técnica evalúa herramientas. Económica evalúa el ROI. Operativa evalúa la integración en procesos actuales y adopción.",
+                    "conceptoRelacionado": "Viabilidad"
+                },
+                {
+                    "id": "7.6",
+                    "tema": "Clasificación de Requerimientos",
+                    "semana": 7,
+                    "nivel": "Medio",
+                    "tipo": "Casos prácticos",
+                    "pregunta": "El cliente indica: 'El sistema debe generar una alerta automática cuando el stock sea inferior a 10 unidades'. ¿Qué tipo de requerimiento es?",
+                    "opciones": [
+                        "Requerimiento Funcional",
+                        "Requerimiento No Funcional de Rendimiento",
+                        "Requerimiento de Negocio Global"
+                    ],
+                    "respuestaCorrecta": "Requerimiento Funcional",
+                    "retroalimentacion": "Bien. Define una acción y flujo lógico del sistema.",
+                    "explicacion": "Generar una alerta bajo una condición de stock es un comportamiento esperado, por lo tanto, es un requerimiento funcional.",
+                    "conceptoRelacionado": "Requerimientos Funcionales"
+                },
+                {
+                    "id": "7.7",
+                    "tema": "Proceso de Elicitación",
+                    "semana": 7,
+                    "nivel": "Medio",
+                    "tipo": "Selección múltiple con varias respuestas",
+                    "pregunta": "¿Cuáles de las siguientes son técnicas de elicitación estructuradas mencionadas en los documentos?",
+                    "opciones": [
+                        "Adivinanza del Desarrollador",
+                        "Entrevistas y Cuestionarios",
+                        "Talleres JAD (Sesiones colaborativas)",
+                        "Observación"
+                    ],
+                    "respuestaCorrecta": "Entrevistas y Cuestionarios, Talleres JAD, Observación",
+                    "retroalimentacion": "Correcto. Estas técnicas extraen información vital del dominio del cliente.",
+                    "explicacion": "Las técnicas incluyen: Entrevistas, Cuestionarios, Observación in situ y Talleres JAD.",
+                    "conceptoRelacionado": "Técnicas de Elicitación"
+                },
+                {
+                    "id": "7.8",
+                    "tema": "Traducción de Lenguajes",
+                    "semana": 7,
+                    "nivel": "Medio",
+                    "tipo": "Relacionar columnas",
+                    "pregunta": "El analista traduce el lenguaje del usuario al técnico. Relaciona: 1. 'Quiero que el sistema sea seguro', 2. 'Debe ser rápido' con A. Tiempo de respuesta menor a 2s, B. Autenticación multifactor con JWT.",
+                    "opciones": [
+                        "1-B, 2-A",
+                        "1-A, 2-B"
+                    ],
+                    "respuestaCorrecta": "1-B, 2-A",
+                    "retroalimentacion": "Exacto. El analista convierte deseos vagos en métricas y tecnologías precisas.",
+                    "explicacion": "Seguro se traduce en Autenticación JWT. Rápido se traduce en latencia o tiempo de respuesta menor a 2 segundos.",
+                    "conceptoRelacionado": "Analista de Sistemas"
+                },
+                {
+                    "id": "7.9",
+                    "tema": "Análisis y Negociación",
+                    "semana": 7,
+                    "nivel": "Medio",
+                    "tipo": "Selección múltiple",
+                    "pregunta": "¿Qué se busca lograr fundamentalmente en la fase de Análisis y Negociación de Requerimientos?",
+                    "opciones": [
+                        "Programar la base de datos.",
+                        "Detectar conflictos, evaluar viabilidad, priorizar entregables y definir el alcance real.",
+                        "Escribir manuales de usuario."
+                    ],
+                    "respuestaCorrecta": "Detectar conflictos, evaluar viabilidad, priorizar entregables y definir el alcance real.",
+                    "retroalimentacion": "Correcto. No todo lo que pide el cliente es factible al mismo tiempo.",
+                    "explicacion": "La negociación permite priorizar requerimientos, detectar incompatibilidades y acordar el alcance para evitar el scope creep.",
+                    "conceptoRelacionado": "Negociación de Requerimientos"
+                },
+                {
+                    "id": "7.10",
+                    "tema": "Gestión de Cambios",
+                    "semana": 7,
+                    "nivel": "Medio",
+                    "tipo": "Completar la oración",
+                    "pregunta": "Para evitar el caos cuando un requisito cambia a mitad del desarrollo, los analistas utilizan una matriz de ________ que permite seguir el impacto del cambio desde su origen hasta el código.",
+                    "opciones": [
+                        "Riesgos",
+                        "Trazabilidad",
+                        "Roles"
+                    ],
+                    "respuestaCorrecta": "Trazabilidad",
+                    "retroalimentacion": "Muy bien. La trazabilidad es el hilo conductor.",
+                    "explicacion": "La matriz de trazabilidad realiza el seguimiento desde el origen de la necesidad, su especificación, hasta la implementación y validación.",
+                    "conceptoRelacionado": "Trazabilidad"
+                },
+                {
+                    "id": "7.11",
+                    "tema": "Evaluación de Viabilidad",
+                    "semana": 7,
+                    "nivel": "Medio",
+                    "tipo": "Casos prácticos",
+                    "pregunta": "Se propuso un sistema increíble con IA, pero al evaluar el contexto de la empresa, se descubre que los empleados se resisten a usar tecnología nueva y el gerente no obligará su uso. ¿Qué viabilidad falló?",
+                    "opciones": [
+                        "Viabilidad Técnica",
+                        "Viabilidad Económica",
+                        "Viabilidad Operativa"
+                    ],
+                    "respuestaCorrecta": "Viabilidad Operativa",
+                    "retroalimentacion": "Excelente. La tecnología no sirve si el usuario final no la adopta.",
+                    "explicacion": "La viabilidad operativa evalúa si los usuarios finales adoptarán el sistema y cómo se integra a sus procesos diarios.",
+                    "conceptoRelacionado": "Viabilidad Operativa"
+                },
+                {
+                    "id": "7.12",
+                    "tema": "Conclusiones y Errores",
+                    "semana": 7,
+                    "nivel": "Medio",
+                    "tipo": "Verdadero/Falso",
+                    "pregunta": "Requisitos ambiguos y la falta de validación con los usuarios son errores que, de cometerse, reducen los costos finales del proyecto.",
+                    "opciones": [
+                        "Verdadero",
+                        "Falso"
+                    ],
+                    "respuestaCorrecta": "Falso",
+                    "retroalimentacion": "Correcto. Al contrario, generan retrabajo y sobrecostes inmensos.",
+                    "explicacion": "Los errores frecuentes como requisitos ambiguos causan consecuencias severas como retrabajo, sobrecostes y productos que no satisfacen al usuario.",
+                    "conceptoRelacionado": "Errores Comunes"
+                },
+                {
+                    "id": "7.13",
+                    "tema": "Gestión de Solicitud de Cambios",
+                    "semana": 7,
+                    "nivel": "Difícil",
+                    "tipo": "Ordenar pasos correctamente",
+                    "pregunta": "Ordena lógicamente las 4 fases de la gestión de solicitudes de cambio en requerimientos:",
+                    "opciones": [
+                        "1. Recepción, 2. Análisis, 3. Evaluación, 4. Aprobación",
+                        "1. Análisis, 2. Evaluación, 3. Recepción, 4. Aprobación",
+                        "1. Evaluación, 2. Aprobación, 3. Recepción, 4. Análisis"
+                    ],
+                    "respuestaCorrecta": "1. Recepción, 2. Análisis, 3. Evaluación, 4. Aprobación",
+                    "retroalimentacion": "Perfecto. Es un ciclo formal y controlado.",
+                    "explicacion": "El proceso es: 1) Recepción (Registro formal), 2) Análisis (Impacto), 3) Evaluación, 4) Aprobación formal del cambio.",
+                    "conceptoRelacionado": "Gestión de Cambios"
+                },
+                {
+                    "id": "7.14",
+                    "tema": "Documentación Formal",
+                    "semana": 7,
+                    "nivel": "Difícil",
+                    "tipo": "Selección múltiple con varias respuestas",
+                    "pregunta": "¿Qué características debe tener un buen documento SRS según los estándares de ingeniería abordados?",
+                    "opciones": [
+                        "Ambigüedad para permitir libertades al programador.",
+                        "Claridad (sin interpretaciones múltiples).",
+                        "Completitud (incluye todo lo necesario).",
+                        "Verificabilidad (se puede comprobar)."
+                    ],
+                    "respuestaCorrecta": "Claridad, Completitud y Verificabilidad",
+                    "retroalimentacion": "Exacto. Un documento SRS no puede permitirse ser ambiguo o vago.",
+                    "explicacion": "Un SRS según IEEE 830 debe poseer claridad (sin ambigüedades), completitud, modificabilidad y verificabilidad.",
+                    "conceptoRelacionado": "SRS (Software Requirements Specification)"
+                },
+                {
+                    "id": "7.15",
+                    "tema": "Validación y Prototipado",
+                    "semana": 7,
+                    "nivel": "Difícil",
+                    "tipo": "Casos prácticos",
+                    "pregunta": "El equipo de desarrollo acaba de terminar de elicitar los requerimientos. En lugar de programar de inmediato, dibujan wireframes y pantallas interactivas para mostrárselas al cliente. ¿Qué fase están ejecutando y por qué?",
+                    "opciones": [
+                        "Fase de despliegue, para cobrar antes.",
+                        "Fase de Validación y Prototipado, porque es mucho más barato corregir un error en un boceto que reescribir código posteriormente.",
+                        "Fase de Mantenimiento, porque el sistema ya está completo."
+                    ],
+                    "respuestaCorrecta": "Fase de Validación y Prototipado, porque es mucho más barato corregir un error en un boceto que reescribir código posteriormente.",
+                    "retroalimentacion": "Muy bien. El prototipo mitiga riesgos financieros y de diseño prematuro.",
+                    "explicacion": "La validación usa prototipos (baja o alta fidelidad) para confirmar la comprensión de los requerimientos ya que es más barato corregir errores antes del desarrollo.",
+                    "conceptoRelacionado": "Validación y Prototipado"
+                }
+            ]
+        },
+        {
+            "id": 8,
+            "titulo": "Análisis de Requerimientos: Especificación y Modelado",
+            "resumen": "Esta semana profundiza en la creación de la Especificación de Requerimientos (SRS) basándose en el estándar IEEE 830, exigiendo documentación que sea clara, completa, verificable y sin ambigüedades. Se aborda el modelado visual utilizando Casos de Uso (UML) para mapear interacciones entre actores y los límites del sistema mediante escenarios (flujos principales y alternativos). Se subraya la importancia crítica de la Trazabilidad como hilo conductor desde la necesidad del negocio hasta el código fuente y las pruebas. Se detalla el rol del Analista de Sistemas como un líder técnico y ético, responsable de prevenir desarrollos ilegales o inviables. Finalmente, contrasta cómo se manejan los requerimientos en metodologías ágiles (Historias de Usuario y Backlog) frente a la rigurosidad y análisis de riesgos profundos exigidos en los Sistemas Críticos.",
+            "palabrasClave": [
+                "SRS",
+                "IEEE 830",
+                "Casos de Uso UML",
+                "Trazabilidad",
+                "Analista de Sistemas",
+                "Historias de Usuario",
+                "Sistemas Críticos"
+            ],
+            "conceptos": [
+                {
+                    "nombre": "SRS (Especificación de Requerimientos)",
+                    "definicion": "Documento formal, completo e inequívoco que detalla los requerimientos y los métodos de verificación (ej. estándar IEEE 830)."
+                },
+                {
+                    "nombre": "Casos de Uso (UML)",
+                    "definicion": "Representación gráfica de las interacciones entre los usuarios (actores) y el sistema para alcanzar un objetivo específico."
+                },
+                {
+                    "nombre": "Trazabilidad",
+                    "definicion": "Capacidad de rastrear un requerimiento en todas las fases del ciclo de vida, evaluando el impacto ante cambios."
+                },
+                {
+                    "nombre": "Sistemas Críticos",
+                    "definicion": "Sistemas donde los errores son inaceptables, requiriendo especificación formal basada en matemática y un riguroso análisis de riesgos."
+                },
+                {
+                    "nombre": "Historias de Usuario",
+                    "definicion": "Formato de requerimiento ágil que prioriza el valor para el negocio y reside en un Product Backlog iterativo."
+                }
+            ],
+            "preguntas": [
+                {
+                    "id": "8.1",
+                    "tema": "Documentación SRS",
+                    "semana": 8,
+                    "nivel": "Fácil",
+                    "tipo": "Selección múltiple",
+                    "pregunta": "¿Qué estándar internacional es recomendado para estructurar la Especificación de Requerimientos de Software (SRS)?",
+                    "opciones": [
+                        "ISO 9001",
+                        "IEEE 830",
+                        "PCI DSS"
+                    ],
+                    "respuestaCorrecta": "IEEE 830",
+                    "retroalimentacion": "Correcto. El estándar IEEE 830 define las buenas prácticas para especificaciones de software.",
+                    "explicacion": "El documento SRS se basa típicamente en normas como IEEE 830 para asegurar claridad, completitud y verificabilidad.",
+                    "conceptoRelacionado": "Especificación SRS"
+                },
+                {
+                    "id": "8.2",
+                    "tema": "Atributos del SRS",
+                    "semana": 8,
+                    "nivel": "Fácil",
+                    "tipo": "Verdadero/Falso",
+                    "pregunta": "Un documento SRS debe escribirse con lenguaje literario ambiguo para que los programadores puedan usar su imaginación.",
+                    "opciones": [
+                        "Verdadero",
+                        "Falso"
+                    ],
+                    "respuestaCorrecta": "Falso",
+                    "retroalimentacion": "Bien. Debe ser preciso e inequívoco.",
+                    "explicacion": "Se debe evitar las frases vagas; el SRS exige un lenguaje preciso, medible y estructurado (completo e inequívoco).",
+                    "conceptoRelacionado": "SRS Atributos"
+                },
+                {
+                    "id": "8.3",
+                    "tema": "Modelado UML",
+                    "semana": 8,
+                    "nivel": "Fácil",
+                    "tipo": "Completar la oración",
+                    "pregunta": "En un diagrama de Casos de Uso, los ________ representan a los usuarios o sistemas externos que interactúan con la aplicación para lograr un objetivo.",
+                    "opciones": [
+                        "Actores",
+                        "Límites",
+                        "Bases de Datos"
+                    ],
+                    "respuestaCorrecta": "Actores",
+                    "retroalimentacion": "Correcto. Ellos detonan el uso del sistema.",
+                    "explicacion": "Los Actores son entidades (humanos o sistemas) externas que interactúan con el sistema.",
+                    "conceptoRelacionado": "Casos de Uso"
+                },
+                {
+                    "id": "8.4",
+                    "tema": "Modelado UML",
+                    "semana": 8,
+                    "nivel": "Fácil",
+                    "tipo": "Selección múltiple",
+                    "pregunta": "¿Qué ventaja principal ofrece modelar requerimientos usando Casos de Uso (UML)?",
+                    "opciones": [
+                        "Escribe el código fuente automáticamente.",
+                        "Facilita entender el sistema sin conocimientos técnicos y mejora la comunicación.",
+                        "Aumenta la ambigüedad del proyecto."
+                    ],
+                    "respuestaCorrecta": "Facilita entender el sistema sin conocimientos técnicos y mejora la comunicación.",
+                    "retroalimentacion": "Exacto. Es un lenguaje visual universal.",
+                    "explicacion": "Los casos de uso son representaciones gráficas que permiten que los usuarios de negocio entiendan el flujo sin saber programar.",
+                    "conceptoRelacionado": "UML Casos de Uso"
+                },
+                {
+                    "id": "8.5",
+                    "tema": "Validación QA",
+                    "semana": 8,
+                    "nivel": "Fácil",
+                    "tipo": "Verdadero/Falso",
+                    "pregunta": "La validación de requerimientos permite detectar errores temprano, lo cual reduce drásticamente los costos de desarrollo futuros.",
+                    "opciones": [
+                        "Verdadero",
+                        "Falso"
+                    ],
+                    "respuestaCorrecta": "Verdadero",
+                    "retroalimentacion": "Excelente. Encontrar un error en papel es más barato que en producción.",
+                    "explicacion": "Detectar errores tempranos mejora la calidad y reduce los costos al evitar retrabajo posterior.",
+                    "conceptoRelacionado": "Validación de Requerimientos"
+                },
+                {
+                    "id": "8.6",
+                    "tema": "Rol del Analista",
+                    "semana": 8,
+                    "nivel": "Fácil",
+                    "tipo": "Selección múltiple",
+                    "pregunta": "¿Cuál es la misión fundamental del Analista de Sistemas según el curso?",
+                    "opciones": [
+                        "Solo reparar servidores y hardware dañado.",
+                        "Traducir la visión estratégica del negocio en una arquitectura técnica viable para los desarrolladores.",
+                        "Escribir código HTML para la web."
+                    ],
+                    "respuestaCorrecta": "Traducir la visión estratégica del negocio en una arquitectura técnica viable para los desarrolladores.",
+                    "retroalimentacion": "Correcto. Actúa como el puente crítico en el SDLC.",
+                    "explicacion": "El analista de sistemas es el líder técnico que equilibra las necesidades de negocio con las limitaciones del equipo de desarrollo.",
+                    "conceptoRelacionado": "Analista de Sistemas"
+                },
+                {
+                    "id": "8.7",
+                    "tema": "Casos de Uso UML",
+                    "semana": 8,
+                    "nivel": "Medio",
+                    "tipo": "Casos prácticos",
+                    "pregunta": "Dentro de un caso de uso de una biblioteca, el 'Flujo Principal' indica que el usuario presenta el libro y se actualiza el registro. Si el libro está dañado y el sistema aplica una multa, ¿esto cómo se documenta?",
+                    "opciones": [
+                        "Como un error del compilador.",
+                        "Como un 'Flujo Alternativo'.",
+                        "Se borra el caso de uso."
+                    ],
+                    "respuestaCorrecta": "Como un 'Flujo Alternativo'.",
+                    "retroalimentacion": "Bien. Los flujos alternativos manejan excepciones y variaciones lógicas.",
+                    "explicacion": "Los escenarios describen paso a paso los objetivos; incluyendo el flujo principal y flujos alternativos para manejar excepciones.",
+                    "conceptoRelacionado": "Escenarios (Flujos)"
+                },
+                {
+                    "id": "8.8",
+                    "tema": "Trazabilidad",
+                    "semana": 8,
+                    "nivel": "Medio",
+                    "tipo": "Selección múltiple con varias respuestas",
+                    "pregunta": "¿Por qué es crítica la trazabilidad en un proyecto de software grande?",
+                    "opciones": [
+                        "Permite analizar el impacto de los cambios rápidamente.",
+                        "Facilita el mantenimiento del sistema.",
+                        "Previene cambios descontrolados y riesgos de inconsistencia.",
+                        "Genera que los programadores cobren menos."
+                    ],
+                    "respuestaCorrecta": "Analizar impacto, facilita mantenimiento, previene cambios descontrolados.",
+                    "retroalimentacion": "Excelente. La trazabilidad da control sobre el ecosistema.",
+                    "explicacion": "Sin trazabilidad existe dificultad para mantener el sistema, riesgo de inconsistencia y cambios descontrolados.",
+                    "conceptoRelacionado": "Trazabilidad"
+                },
+                {
+                    "id": "8.9",
+                    "tema": "Metodologías Ágiles",
+                    "semana": 8,
+                    "nivel": "Medio",
+                    "tipo": "Completar la oración",
+                    "pregunta": "En entornos Ágiles, los requerimientos no se estancan en un documento rígido, sino que nacen en forma de ________ que se priorizan en un Product Backlog.",
+                    "opciones": [
+                        "Modelos Matemáticos",
+                        "Historias de Usuario",
+                        "Sistemas Críticos"
+                    ],
+                    "respuestaCorrecta": "Historias de Usuario",
+                    "retroalimentacion": "Correcto. Son dinámicas y orientadas al valor rápido.",
+                    "explicacion": "En metodologías ágiles, los requerimientos nacen como Historias de Usuario gestionadas dinámicamente en un Backlog.",
+                    "conceptoRelacionado": "Historias de Usuario"
+                },
+                {
+                    "id": "8.10",
+                    "tema": "Sistemas Críticos",
+                    "semana": 8,
+                    "nivel": "Medio",
+                    "tipo": "Casos prácticos",
+                    "pregunta": "Tu equipo está diseñando el software de control de vuelos de un aeropuerto. ¿Qué enfoque de requerimientos es el más adecuado?",
+                    "opciones": [
+                        "Agilidad extrema sin documentos para acabar rápido.",
+                        "Historias de usuario en post-its.",
+                        "Ingeniería de Requerimientos Rigurosa utilizando especificación formal basada en matemática y profundo análisis de riesgos."
+                    ],
+                    "respuestaCorrecta": "Ingeniería de Requerimientos Rigurosa utilizando especificación formal basada en matemática y profundo análisis de riesgos.",
+                    "retroalimentacion": "Perfecto. En sistemas donde vidas dependen del código, la agilidad informal es peligrosa.",
+                    "explicacion": "Los sistemas críticos requieren rigor extremo, especificación formal y un análisis de fallos minucioso, priorizando validación exhaustiva.",
+                    "conceptoRelacionado": "Sistemas Críticos"
+                },
+                {
+                    "id": "8.11",
+                    "tema": "Validación QA",
+                    "semana": 8,
+                    "nivel": "Medio",
+                    "tipo": "Relacionar columnas",
+                    "pregunta": "Asocia el Criterio de Calidad con su definición durante la validación: 1. Veracidad, 2. Consistencia, 3. Completitud. con A. ¿Falta algo?, B. ¿Hay contradicciones?, C. ¿Es lo que el usuario necesita?",
+                    "opciones": [
+                        "1-B, 2-C, 3-A",
+                        "1-C, 2-B, 3-A",
+                        "1-A, 2-B, 3-C"
+                    ],
+                    "respuestaCorrecta": "1-C, 2-B, 3-A",
+                    "retroalimentacion": "Exacto. Veracidad evalúa la necesidad; consistencia previene fallos lógicos.",
+                    "explicacion": "Veracidad responde a si es lo que el usuario necesita. Consistencia detecta contradicciones. Completitud verifica que nada falte.",
+                    "conceptoRelacionado": "Criterios de Calidad"
+                },
+                {
+                    "id": "8.12",
+                    "tema": "Ética del Analista",
+                    "semana": 8,
+                    "nivel": "Medio",
+                    "tipo": "Verdadero/Falso",
+                    "pregunta": "Según la Visión Ética del Analista, si un cliente solicita un requerimiento que compromete la seguridad o es ilegal, el analista debe programarlo de todas formas porque 'el cliente siempre tiene la razón'.",
+                    "opciones": [
+                        "Verdadero",
+                        "Falso"
+                    ],
+                    "respuestaCorrecta": "Falso",
+                    "retroalimentacion": "Bien. La responsabilidad técnica y moral la asume el ingeniero.",
+                    "explicacion": "El analista debe advertir al cliente si un requerimiento es ilegal, inseguro o inviable financieramente.",
+                    "conceptoRelacionado": "Ética y Analista"
+                },
+                {
+                    "id": "8.13",
+                    "tema": "Trazabilidad",
+                    "semana": 8,
+                    "nivel": "Medio",
+                    "tipo": "Selección múltiple",
+                    "pregunta": "Cuando se aplica una buena matriz de trazabilidad, si se modifica una 'Regla de Negocio', ¿qué componentes se deben actualizar?",
+                    "opciones": [
+                        "Solo el documento inicial.",
+                        "La documentación, el código fuente y finalmente los casos de prueba.",
+                        "Nada, el software se auto-adapta."
+                    ],
+                    "respuestaCorrecta": "La documentación, el código fuente y finalmente los casos de prueba.",
+                    "retroalimentacion": "Correcto. El hilo conductor afecta a todo el ciclo de vida.",
+                    "explicacion": "La trazabilidad conecta el origen (necesidad) con la especificación (documento), implementación (código) y verificación (pruebas).",
+                    "conceptoRelacionado": "Trazabilidad en SDLC"
+                },
+                {
+                    "id": "8.14",
+                    "tema": "Errores de Requerimientos",
+                    "semana": 8,
+                    "nivel": "Medio",
+                    "tipo": "Completar la oración",
+                    "pregunta": "Uno de los errores más comunes al iniciar un proyecto es la ________ de interesados, es decir, desarrollar el software sin involucrar a todas las partes afectadas.",
+                    "opciones": [
+                        "Aceptación",
+                        "Omisión",
+                        "Trazabilidad"
+                    ],
+                    "respuestaCorrecta": "Omisión",
+                    "retroalimentacion": "Bien. Si no entrevistas al cajero que usará el sistema, el sistema fracasará.",
+                    "explicacion": "La omisión de interesados clave es un error gravísimo que lleva a asumir requerimientos inexistentes.",
+                    "conceptoRelacionado": "Errores Comunes"
+                },
+                {
+                    "id": "8.15",
+                    "tema": "Validación de Casos de Prueba",
+                    "semana": 8,
+                    "nivel": "Medio",
+                    "tipo": "Casos prácticos",
+                    "pregunta": "Si un requerimiento indica: 'El sistema debe procesar 1,000 transacciones por segundo', ¿qué método de verificación exacto establece el cuadro SRS para validar esto?",
+                    "opciones": [
+                        "Análisis visual.",
+                        "Pruebas de carga (Testing de estrés).",
+                        "Demostración informal."
+                    ],
+                    "respuestaCorrecta": "Pruebas de carga (Testing de estrés).",
+                    "retroalimentacion": "Excelente. Los requerimientos de rendimiento requieren auditorías de carga.",
+                    "explicacion": "Los requerimientos de rendimiento (ej. 1000 transacciones/s) requieren métodos de verificación técnica como las pruebas de carga.",
+                    "conceptoRelacionado": "Método de Verificación SRS"
+                },
+                {
+                    "id": "8.16",
+                    "tema": "Componentes de Casos de Uso",
+                    "semana": 8,
+                    "nivel": "Medio",
+                    "tipo": "Selección múltiple",
+                    "pregunta": "¿Qué representan los 'Límites del Sistema' (Boundary) en un diagrama UML?",
+                    "opciones": [
+                        "El presupuesto máximo en dólares del proyecto.",
+                        "Qué procesos están dentro de la responsabilidad de nuestro software y cuáles recaen en entidades externas.",
+                        "El límite de memoria RAM."
+                    ],
+                    "respuestaCorrecta": "Qué procesos están dentro de la responsabilidad de nuestro software y cuáles recaen en entidades externas.",
+                    "retroalimentacion": "Correcto. Define el 'scope' para no programar el universo entero.",
+                    "explicacion": "Los límites (Boundary) definen visualmente qué funcionalidad está dentro y qué queda fuera del sistema.",
+                    "conceptoRelacionado": "Límites del Sistema UML"
+                },
+                {
+                    "id": "8.17",
+                    "tema": "Ciclo de Trazabilidad",
+                    "semana": 8,
+                    "nivel": "Difícil",
+                    "tipo": "Ordenar pasos correctamente",
+                    "pregunta": "Ordena el flujo lógico de un requerimiento dentro de la Trazabilidad del software:",
+                    "opciones": [
+                        "1. Origen (Necesidad de Negocio), 2. Especificación (Documentación formal), 3. Implementación (Código), 4. Verificación (Pruebas)",
+                        "1. Especificación, 2. Verificación, 3. Origen, 4. Implementación",
+                        "1. Implementación, 2. Pruebas, 3. Documentación, 4. Origen"
+                    ],
+                    "respuestaCorrecta": "1. Origen (Necesidad de Negocio), 2. Especificación (Documentación formal), 3. Implementación (Código), 4. Verificación (Pruebas)",
+                    "retroalimentacion": "Perfecto. Así se audita un sistema profesionalmente.",
+                    "explicacion": "La ruta rastreable es: Necesidad (Origen) -> Documentación (Especificación) -> Código (Implementación) -> Pruebas (Verificación).",
+                    "conceptoRelacionado": "El Hilo de Trazabilidad"
+                },
+                {
+                    "id": "8.18",
+                    "tema": "Diagramas de Casos de Uso",
+                    "semana": 8,
+                    "nivel": "Difícil",
+                    "tipo": "Casos prácticos",
+                    "pregunta": "Observando la notación UML, si el caso de uso 'Prestar Libro' obliga invariablemente a ejecutar internamente el proceso 'Verificar Estado del Miembro', ¿qué tipo de relación UML los une?",
+                    "opciones": [
+                        "<> (Extensión)",
+                        "<> (Inclusión)",
+                        "Boundary"
+                    ],
+                    "respuestaCorrecta": "<> (Inclusión)",
+                    "retroalimentacion": "Exacto. Include significa dependencia obligatoria; Extend es opcional.",
+                    "explicacion": "Una relación <> denota un comportamiento que es obligatorio y está incluido dentro de otro caso de uso principal.",
+                    "conceptoRelacionado": "UML Include/Extend"
+                },
+                {
+                    "id": "8.19",
+                    "tema": "Validación SRS",
+                    "semana": 8,
+                    "nivel": "Difícil",
+                    "tipo": "Selección múltiple con varias respuestas",
+                    "pregunta": "La tabla formal SRS (como la basada en IEEE 830) utiliza columnas estrictas. ¿Cuáles son componentes obligatorios en estas filas?",
+                    "opciones": [
+                        "Código de programación ya resuelto.",
+                        "ID de Requerimiento, Categoría (Rendimiento, Seguridad, etc.).",
+                        "Descripción (El requerimiento explícito).",
+                        "Método de Verificación y Prioridad."
+                    ],
+                    "respuestaCorrecta": "ID, Categoría, Descripción, Método de Verificación y Prioridad.",
+                    "retroalimentacion": "Muy bien. Sin un método de verificación, el requisito es inútil.",
+                    "explicacion": "Las matrices SRS requieren ID, Categoría, Requerimiento textual, Método de Verificación (ej. prueba de carga) y Prioridad.",
+                    "conceptoRelacionado": "Matriz SRS"
+                },
+                {
+                    "id": "8.20",
+                    "tema": "Restricciones Ignoradas",
+                    "semana": 8,
+                    "nivel": "Difícil",
+                    "tipo": "Casos prácticos",
+                    "pregunta": "Un analista diseña un software de videollamadas 4K, pero ignora que la red de los usuarios rurales solo soporta 3G. ¿Qué error común cometió según la documentación?",
+                    "opciones": [
+                        "Falta de trazabilidad visual.",
+                        "Ignorar restricciones técnicas de la infraestructura actual.",
+                        "Uso excesivo de diagramas UML."
+                    ],
+                    "respuestaCorrecta": "Ignorar restricciones técnicas de la infraestructura actual.",
+                    "retroalimentacion": "Correcto. El software debe adaptarse al contexto físico.",
+                    "explicacion": "Uno de los errores comunes citados es no considerar las limitaciones técnicas y de infraestructura donde operará el sistema.",
+                    "conceptoRelacionado": "Errores Comunes en Requerimientos"
+                }
+            ]
+        },
+        {
+            "id": 9,
+            "titulo": "Técnicas de Modelamiento Estructurado y Prototipado",
+            "resumen": "Esta unidad expone cómo transformar la complejidad de un sistema en modelos manejables. El Análisis Estructurado utiliza la descomposición funcional representada en Diagramas de Flujo de Datos (DFD) que ilustran procesos, entidades externas y flujos. A esto se suma el Diccionario de Datos para centralizar términos y evitar ambigüedades, junto con especificaciones (P-Specs). Para la base de datos se utiliza el Modelamiento Entidad-Relación (DER). Como puente hacia la experiencia real del usuario, se aborda el Prototipado, evaluando el enfoque desechable frente al evolutivo, y las técnicas desde baja fidelidad (wireframes rápidos) hasta alta fidelidad (interactividad con Figma o React). Se subraya el rol de las Herramientas CASE para automatizar el diseño y la imperativa necesidad de validar los modelos detectando 'agujeros negros' y garantizando consistencia técnica.",
+            "palabrasClave": [
+                "DFD (Diagrama Flujo Datos)",
+                "Diccionario de Datos",
+                "DER (Entidad-Relación)",
+                "Prototipado",
+                "Herramientas CASE",
+                "Validación de Modelos"
+            ],
+            "conceptos": [
+                {
+                    "nombre": "Análisis Estructurado",
+                    "definicion": "Método que descompone sistemas complejos en partes más simples (procesos) usando arquitecturas jerárquicas y diagramas de flujo."
+                },
+                {
+                    "nombre": "DFD",
+                    "definicion": "Diagrama de Flujo de Datos; modela gráficamente entidades externas, procesos, almacenes de datos y la información que viaja entre ellos."
+                },
+                {
+                    "nombre": "Diccionario de Datos",
+                    "definicion": "Repositorio centralizado que define unívocamente todos los elementos del sistema, actuando como el 'glosario técnico' vital."
+                },
+                {
+                    "nombre": "DER",
+                    "definicion": "Diagrama Entidad-Relación; técnica que modela la estructura estática de la base de datos (Entidades, Atributos y Relaciones)."
+                },
+                {
+                    "nombre": "Prototipado Evolutivo vs Desechable",
+                    "definicion": "El evolutivo iterará hasta ser el código final (riesgo de deuda técnica); el desechable valida requerimientos visuales y se tira a la basura."
+                }
+            ],
+            "preguntas": [
+                {
+                    "id": "9.1",
+                    "tema": "Análisis Estructurado",
+                    "semana": 9,
+                    "nivel": "Fácil",
+                    "tipo": "Selección múltiple",
+                    "pregunta": "¿Qué técnica fundamental usa el Análisis Estructurado para facilitar la comprensión de un sistema enorme?",
+                    "opciones": [
+                        "Prototipos de Alta Fidelidad en 3D.",
+                        "Descomposición Funcional, dividiendo el sistema en subprocesos manejables.",
+                        "Comprar más servidores web."
+                    ],
+                    "respuestaCorrecta": "Descomposición Funcional, dividiendo el sistema en subprocesos manejables.",
+                    "retroalimentacion": "Bien. 'Divide y vencerás' es la premisa del modelamiento estructurado.",
+                    "explicacion": "El análisis estructurado utiliza la Descomposición Funcional para dividir el sistema general en procesos más simples.",
+                    "conceptoRelacionado": "Análisis Estructurado"
+                },
+                {
+                    "id": "9.2",
+                    "tema": "Herramientas de Modelado",
+                    "semana": 9,
+                    "nivel": "Fácil",
+                    "tipo": "Completar la oración",
+                    "pregunta": "Un Diagrama de Flujo de Datos (DFD) utiliza cuatro elementos gráficos clave: Entidades externas, Flujos de Datos, Almacenes de Datos y ________.",
+                    "opciones": [
+                        "Atributos",
+                        "Servidores",
+                        "Procesos"
+                    ],
+                    "respuestaCorrecta": "Procesos",
+                    "retroalimentacion": "Correcto. El proceso es donde ocurre la transformación de la información.",
+                    "explicacion": "Los componentes de un DFD son: Entidades externas, Procesos, Flujos de Datos y Almacenes de Datos.",
+                    "conceptoRelacionado": "DFD"
+                },
+                {
+                    "id": "9.3",
+                    "tema": "El Diccionario de Datos",
+                    "semana": 9,
+                    "nivel": "Fácil",
+                    "tipo": "Verdadero/Falso",
+                    "pregunta": "El Diccionario de Datos actúa como el 'glosario técnico' centralizado para evitar ambigüedades en los nombres usados en los DFD.",
+                    "opciones": [
+                        "Verdadero",
+                        "Falso"
+                    ],
+                    "respuestaCorrecta": "Verdadero",
+                    "retroalimentacion": "Exacto. Garantiza que todos los programadores entiendan lo mismo.",
+                    "explicacion": "Su función principal es actuar como un repositorio centralizado de definiciones que mejora la comunicación y detecta inconsistencias.",
+                    "conceptoRelacionado": "Diccionario de Datos"
+                },
+                {
+                    "id": "9.4",
+                    "tema": "Herramientas CASE",
+                    "semana": 9,
+                    "nivel": "Fácil",
+                    "tipo": "Selección múltiple",
+                    "pregunta": "¿Cuál es la utilidad principal de las Herramientas CASE?",
+                    "opciones": [
+                        "Automatizar y facilitar el modelamiento de sistemas (DFD, DER) y validar consistencia.",
+                        "Proteger las computadoras físicamente (Cases).",
+                        "Eliminar la necesidad de hacer requerimientos."
+                    ],
+                    "respuestaCorrecta": "Automatizar y facilitar el modelamiento de sistemas (DFD, DER) y validar consistencia.",
+                    "retroalimentacion": "Bien. CASE significa Computer-Aided Software Engineering.",
+                    "explicacion": "Permiten automatizar la creación de diagramas DFD, DER y generación de código, reduciendo errores manuales.",
+                    "conceptoRelacionado": "Herramientas CASE"
+                },
+                {
+                    "id": "9.5",
+                    "tema": "Prototipado",
+                    "semana": 9,
+                    "nivel": "Fácil",
+                    "tipo": "Verdadero/Falso",
+                    "pregunta": "Los prototipos de baja fidelidad (como dibujos a mano o wireframes) permiten validar la idea general con el cliente sin gastar tiempo excesivo en el diseño visual.",
+                    "opciones": [
+                        "Verdadero",
+                        "Falso"
+                    ],
+                    "respuestaCorrecta": "Verdadero",
+                    "retroalimentacion": "Correcto. Son rápidos y enfocados a validar la funcionalidad básica.",
+                    "explicacion": "Los bocetos y wireframes capturan ideas sin comprometer tiempo en programación o arte avanzado.",
+                    "conceptoRelacionado": "Prototipado Baja Fidelidad"
+                },
+                {
+                    "id": "9.6",
+                    "tema": "Modelado Estático",
+                    "semana": 9,
+                    "nivel": "Medio",
+                    "tipo": "Relacionar columnas",
+                    "pregunta": "En un diagrama Entidad-Relación (DER), asocia cada concepto: 1. Entidad, 2. Atributo, 3. Relación con A. Conexión lógica, B. Objeto del mundo real (ej. Alumno), C. Característica (ej. Edad, DNI).",
+                    "opciones": [
+                        "1-B, 2-C, 3-A",
+                        "1-C, 2-A, 3-B",
+                        "1-A, 2-B, 3-C"
+                    ],
+                    "respuestaCorrecta": "1-B, 2-C, 3-A",
+                    "retroalimentacion": "Excelente. Entidad es el sustantivo, el atributo el adjetivo y la relación el verbo.",
+                    "explicacion": "Entidad = Objeto (Alumno). Atributo = Característica (DNI). Relación = Conexión lógica (Inscrito en).",
+                    "conceptoRelacionado": "DER"
+                },
+                {
+                    "id": "9.7",
+                    "tema": "Diagrama DFD",
+                    "semana": 9,
+                    "nivel": "Medio",
+                    "tipo": "Casos prácticos",
+                    "pregunta": "En un diagrama DFD Nivel 0 (Diagrama de Contexto), la visión global del sistema se representa habitualmente con un solo gran proceso central y las:",
+                    "opciones": [
+                        "Clases abstractas internas de programación.",
+                        "Entidades externas que le proporcionan o reciben información.",
+                        "Tablas de base de datos relacional completas."
+                    ],
+                    "respuestaCorrecta": "Entidades externas que le proporcionan o reciben información.",
+                    "retroalimentacion": "Correcto. El nivel 0 aísla el software como una caja negra conectada al entorno.",
+                    "explicacion": "El DFD de contexto (Nivel 0) presenta el sistema como un solo proceso interactuando con las entidades externas, sin ver sus almacenes internos.",
+                    "conceptoRelacionado": "DFD Nivel 0"
+                },
+                {
+                    "id": "9.8",
+                    "tema": "Especificación Lógica",
+                    "semana": 9,
+                    "nivel": "Medio",
+                    "tipo": "Selección múltiple",
+                    "pregunta": "Cuando un proceso de DFD llega a su nivel más bajo, se utiliza la Especificación de Procesos (P-Specs) para explicar su lógica interna usando:",
+                    "opciones": [
+                        "Prototipos UI en Figma.",
+                        "Español estructurado, tablas de decisión o árboles de decisión.",
+                        "Requerimientos No Funcionales de latencia."
+                    ],
+                    "respuestaCorrecta": "Español estructurado, tablas de decisión o árboles de decisión.",
+                    "retroalimentacion": "Bien. Así el programador sabe la matemática exacta de la función.",
+                    "explicacion": "Las especificaciones P-Specs definen la lógica (condiciones IF-THEN) utilizando español estructurado o tablas de decisión.",
+                    "conceptoRelacionado": "Especificación de Procesos"
+                },
+                {
+                    "id": "9.9",
+                    "tema": "Riesgos del Prototipado",
+                    "semana": 9,
+                    "nivel": "Medio",
+                    "tipo": "Completar la oración",
+                    "pregunta": "Un riesgo inmenso del prototipado es la confusión del usuario y la generación de ________ técnica cuando se intenta usar el código rápido de un prototipo desechable para el sistema de producción final.",
+                    "opciones": [
+                        "Deuda",
+                        "Interfaz",
+                        "Usabilidad"
+                    ],
+                    "respuestaCorrecta": "Deuda",
+                    "retroalimentacion": "Exacto. El código hecho a la carrera pasa factura después.",
+                    "explicacion": "Intentar convertir un prototipo rápido y desechable (mal optimizado) en un software productivo genera 'Deuda Técnica'.",
+                    "conceptoRelacionado": "Riesgos del Prototipado"
+                },
+                {
+                    "id": "9.10",
+                    "tema": "Prototipado Evolutivo vs Desechable",
+                    "semana": 9,
+                    "nivel": "Medio",
+                    "tipo": "Verdadero/Falso",
+                    "pregunta": "A diferencia del prototipo desechable, el Prototipo Evolutivo tiene como objetivo integrarse progresivamente al sistema final.",
+                    "opciones": [
+                        "Verdadero",
+                        "Falso"
+                    ],
+                    "respuestaCorrecta": "Verdadero",
+                    "retroalimentacion": "Correcto. Mejora y muta hasta ser la versión 1.0 real.",
+                    "explicacion": "El prototipado evolutivo mejora de forma continua incorporando feedback hasta convertirse en el producto final; el código sí se conserva.",
+                    "conceptoRelacionado": "Prototipado Evolutivo"
+                },
+                {
+                    "id": "9.11",
+                    "tema": "Alta Fidelidad",
+                    "semana": 9,
+                    "nivel": "Medio",
+                    "tipo": "Selección múltiple con varias respuestas",
+                    "pregunta": "¿Qué herramientas y tecnologías son representativas de los Prototipos de Alta Fidelidad interactivos mencionados en la industria?",
+                    "opciones": [
+                        "Lápiz y Papel",
+                        "Figma y Adobe XD",
+                        "Frameworks Front-end como React o Angular",
+                        "Bases de datos SQL puras"
+                    ],
+                    "respuestaCorrecta": "Figma y Adobe XD, Frameworks Front-end como React o Angular",
+                    "retroalimentacion": "Bien. Estos permiten interacciones reales y diseño pixel-perfect.",
+                    "explicacion": "Los prototipos alta fidelidad simulan digitalmente el entorno usando Figma, Adobe XD, o frameworks Front-end (React/Angular).",
+                    "conceptoRelacionado": "Prototipado de Alta Fidelidad"
+                },
+                {
+                    "id": "9.12",
+                    "tema": "Validación de Modelos",
+                    "semana": 9,
+                    "nivel": "Medio",
+                    "tipo": "Casos prácticos",
+                    "pregunta": "Un analista dibuja un proceso llamado 'Calcular Nómina' en el DFD. Entran las 'Horas trabajadas', pero el proceso no tiene ninguna flecha de salida (no genera cheques ni reportes). Este error clásico en DFD se denomina:",
+                    "opciones": [
+                        "Bucle infinito.",
+                        "Agujero negro (Black hole).",
+                        "Proceso mágico."
+                    ],
+                    "respuestaCorrecta": "Agujero negro (Black hole).",
+                    "retroalimentacion": "Exacto. La información entra y nunca sale.",
+                    "explicacion": "Un error común donde los datos entran a un proceso pero nada sale de él se conoce técnicamente como agujero negro.",
+                    "conceptoRelacionado": "Validación DFD"
+                },
+                {
+                    "id": "9.13",
+                    "tema": "Validación de Modelos",
+                    "semana": 9,
+                    "nivel": "Medio",
+                    "tipo": "Relacionar columnas",
+                    "pregunta": "Relaciona las categorías de las herramientas CASE: 1. Upper CASE, 2. Lower CASE, 3. Integrated CASE con las etapas que asisten: A. Cubren todo el ciclo, B. Solo Planificación y Análisis, C. Diseño y Generación de Código.",
+                    "opciones": [
+                        "1-B, 2-C, 3-A",
+                        "1-C, 2-A, 3-B",
+                        "1-A, 2-B, 3-C"
+                    ],
+                    "respuestaCorrecta": "1-B, 2-C, 3-A",
+                    "retroalimentacion": "Excelente. Upper (arriba/temprano), Lower (abajo/código).",
+                    "explicacion": "Upper CASE (Planificación y Análisis), Lower CASE (Diseño y Generación código), Integrated CASE (Todo el ciclo).",
+                    "conceptoRelacionado": "Herramientas CASE"
+                },
+                {
+                    "id": "9.14",
+                    "tema": "Aporte a la Industria",
+                    "semana": 9,
+                    "nivel": "Medio",
+                    "tipo": "Verdadero/Falso",
+                    "pregunta": "En sistemas críticos como la Banca en Línea, el Modelado de Datos (DER) garantiza la integridad de la base de datos mientras que el prototipado final aprueba la experiencia del usuario (UX).",
+                    "opciones": [
+                        "Verdadero",
+                        "Falso"
+                    ],
+                    "respuestaCorrecta": "Verdadero",
+                    "retroalimentacion": "Correcto. Se une la robustez del back-end con la agilidad del front-end.",
+                    "explicacion": "Empresas bancarias unen DER/DFD para proteger los datos financieros en el back, validando la interfaz front-end con Figma/React.",
+                    "conceptoRelacionado": "Aporte Industrial"
+                },
+                {
+                    "id": "9.15",
+                    "tema": "Flujo de Trabajo",
+                    "semana": 9,
+                    "nivel": "Difícil",
+                    "tipo": "Ordenar pasos correctamente",
+                    "pregunta": "Ordena cronológicamente el flujo metodológico para la concepción del sistema abordado en la semana:",
+                    "opciones": [
+                        "1. Modelo Estructurado (DFD/DER), 2. Prototipo Interactivo, 3. Sistema Final de Producción",
+                        "1. Sistema Final, 2. Prototipo, 3. DFD",
+                        "1. Prototipo Interactivo, 2. DFD, 3. Sistema Final"
+                    ],
+                    "respuestaCorrecta": "1. Modelo Estructurado (DFD/DER), 2. Prototipo Interactivo, 3. Sistema Final de Producción",
+                    "retroalimentacion": "Perfecto. Primero los planos (modelos), luego la maqueta visual (prototipo), luego el edificio real (sistema).",
+                    "explicacion": "La ruta estructurada va desde el Modelo Estructurado, pasando por la validación del Prototipo, hasta arribar a la etapa de código del Sistema Final.",
+                    "conceptoRelacionado": "Relación Modelamiento y Prototipado"
+                },
+                {
+                    "id": "9.16",
+                    "tema": "Criterios de Validación",
+                    "semana": 9,
+                    "nivel": "Difícil",
+                    "tipo": "Selección múltiple con varias respuestas",
+                    "pregunta": "Para la validación rigurosa del modelo estructurado antes de programar, el equipo de QA aplica revisiones para garantizar:",
+                    "opciones": [
+                        "Consistencia (sin contradicciones entre modelos).",
+                        "Completitud (que todos los requerimientos estén presentes).",
+                        "Ausencia de ambigüedades técnicas.",
+                        "Que los colores de la interfaz sean modernos."
+                    ],
+                    "respuestaCorrecta": "Consistencia, Completitud y Ausencia de ambigüedades técnicas.",
+                    "retroalimentacion": "Bien hecho. Los colores entran en el prototipado UX, no en el modelo duro (DFD).",
+                    "explicacion": "La validación del modelo estático busca Consistencia, Completitud y clarificar ambigüedades en flujos y datos.",
+                    "conceptoRelacionado": "Validación Estructurada"
+                }
+            ]
+        },
+        {
+            "id": 10,
+            "titulo": "Habilidades Blandas: Defensa y Explicación de Prioridades",
+            "resumen": "Esta semana explora el lado humano y estratégico de la ingeniería. Un ingeniero técnico excelente no sobrevive sin comunicación asertiva. El 'Triángulo de Hierro' de la ingeniería demuestra que si se incrementa el alcance (más funciones) sin tocar presupuesto ni tiempo, la calidad sufrirá retrasos sistémicos. Se enseña a defender prioridades utilizando el modelo MoSCoW, enfocándose en el Valor de Negocio y la Gestión Temprana de Riesgos. Ante clientes no técnicos, se promueve el uso de analogías ('el backend son los cimientos') y métricas empíricas (CPU, incidentes) para lograr negociaciones racionales y no emocionales. La honestidad intelectual mediante la exposición del Costo de Oportunidad permite ajustes de cronograma saludables. Por último, se aborda la defensa de prioridades en entornos Ágiles y el manejo de estrés durante caídas críticas en producción.",
+            "palabrasClave": [
+                "Triángulo de Hierro",
+                "MoSCoW",
+                "Comunicación Asertiva",
+                "Costo de Oportunidad",
+                "Gestión de Incidentes",
+                "Negociación Técnica"
+            ],
+            "conceptos": [
+                {
+                    "nombre": "Triángulo de Hierro",
+                    "definicion": "El equilibrio entre Alcance, Tiempo, Costo y Calidad. Modificar un vértice sin ajustar los demás genera sistemas frágiles y retrasos."
+                },
+                {
+                    "nombre": "MoSCoW",
+                    "definicion": "Técnica de priorización (Must have, Should have, Could have, Won't have) para evitar la sobrecarga de requisitos urgentes falsos."
+                },
+                {
+                    "nombre": "Costo de Oportunidad",
+                    "definicion": "El principio de honestidad técnica que explica que elegir acelerar una funcionalidad implica necesariamente sacrificar o posponer otra."
+                },
+                {
+                    "nombre": "Comunicación Asertiva Técnica",
+                    "definicion": "Capacidad de establecer límites claros (NO a cambios tardíos destructivos) empleando datos, y traduciendo la jerga técnica mediante analogías."
+                },
+                {
+                    "nombre": "Gestión de Incidentes Críticos",
+                    "definicion": "Protocolo de emergencia (Recepción, Comunicación, Resolución) donde las prioridades cotidianas se congelan para restaurar la operatividad crítica."
+                }
+            ],
+            "preguntas": [
+                {
+                    "id": "10.1",
+                    "tema": "Triángulo de Hierro",
+                    "semana": 10,
+                    "nivel": "Fácil",
+                    "tipo": "Selección múltiple",
+                    "pregunta": "¿Qué componentes forman los tres vértices del Triángulo de Hierro de la Ingeniería de Software, que delimitan la Calidad?",
+                    "opciones": [
+                        "Programador, Cliente, Base de Datos.",
+                        "Alcance, Tiempo, Costo.",
+                        "Agilidad, Waterfall, Mantenimiento."
+                    ],
+                    "respuestaCorrecta": "Alcance, Tiempo, Costo.",
+                    "retroalimentacion": "Exacto. Presionar estos tres afecta directamente a la calidad central.",
+                    "explicacion": "El triángulo se compone de Alcance, Tiempo y Costo. El equilibrio determina la Calidad final.",
+                    "conceptoRelacionado": "Triángulo de Hierro"
+                },
+                {
+                    "id": "10.2",
+                    "tema": "Priorización MoSCoW",
+                    "semana": 10,
+                    "nivel": "Fácil",
+                    "tipo": "Completar la oración",
+                    "pregunta": "Según la técnica MoSCoW, los requerimientos ________ (Must Have) son funciones vitales sin las cuales el sistema simplemente no puede arrancar o salir a producción.",
+                    "opciones": [
+                        "Esenciales / Obligatorios",
+                        "Deseables / Opcionales",
+                        "Decorativos"
+                    ],
+                    "respuestaCorrecta": "Esenciales / Obligatorios",
+                    "retroalimentacion": "Bien. Son los 'Must Have'.",
+                    "explicacion": "Must Have representa las funcionalidades de cumplimiento obligatorio (Esenciales) para el lanzamiento.",
+                    "conceptoRelacionado": "MoSCoW (Must Have)"
+                },
+                {
+                    "id": "10.3",
+                    "tema": "Comunicación Técnica",
+                    "semana": 10,
+                    "nivel": "Fácil",
+                    "tipo": "Verdadero/Falso",
+                    "pregunta": "Al explicar decisiones técnicas a gerentes o clientes (no técnicos), el uso de analogías (ej. 'La base de datos es como los cimientos de una casa') mejora la confianza y aprobación presupuestaria.",
+                    "opciones": [
+                        "Verdadero",
+                        "Falso"
+                    ],
+                    "respuestaCorrecta": "Verdadero",
+                    "retroalimentacion": "Excelente. Eliminar la jerga incomprensible es signo de dominio real.",
+                    "explicacion": "Traducir conceptos técnicos a analogías comunes elimina la brecha de comunicación y facilita obtener apoyo gerencial.",
+                    "conceptoRelacionado": "Explicación Técnica para No Técnicos"
+                },
+                {
+                    "id": "10.4",
+                    "tema": "Costo de Oportunidad",
+                    "semana": 10,
+                    "nivel": "Fácil",
+                    "tipo": "Selección múltiple",
+                    "pregunta": "¿Qué implica el 'Costo de Oportunidad' al defender prioridades?",
+                    "opciones": [
+                        "Que el cliente debe pagar el triple por cada requerimiento.",
+                        "Ser honesto intelectualmente aclarando que elegir construir la Función A implica necesariamente retrasar o pausar la Función B.",
+                        "Despedir al analista por tardarse."
+                    ],
+                    "respuestaCorrecta": "Ser honesto intelectualmente aclarando que elegir construir la Función A implica necesariamente retrasar o pausar la Función B.",
+                    "retroalimentacion": "Correcto. Es imposible hacerlo todo con el mismo equipo y tiempo.",
+                    "explicacion": "El costo de oportunidad indica que elegir una opción implica renunciar o posponer a otra, otorgando transparencia al negocio.",
+                    "conceptoRelacionado": "Costo de Oportunidad"
+                },
+                {
+                    "id": "10.5",
+                    "tema": "Toma de Decisiones",
+                    "semana": 10,
+                    "nivel": "Fácil",
+                    "tipo": "Verdadero/Falso",
+                    "pregunta": "En el 'Risk-First Development' (Desarrollo Orientado al Riesgo) se busca esconder los problemas graves al inicio para que el cliente no se asuste, abordándolos al final.",
+                    "opciones": [
+                        "Verdadero",
+                        "Falso"
+                    ],
+                    "respuestaCorrecta": "Falso",
+                    "retroalimentacion": "Falso. Se abordan los mayores riesgos técnicos primero para evitar catástrofes caras.",
+                    "explicacion": "El Risk-First prioriza resolver tareas críticas y validar supuestos técnicos al inicio para mitigar problemas graves proactivamente.",
+                    "conceptoRelacionado": "Gestión de Riesgos"
+                },
+                {
+                    "id": "10.6",
+                    "tema": "MoSCoW",
+                    "semana": 10,
+                    "nivel": "Medio",
+                    "tipo": "Relacionar columnas",
+                    "pregunta": "Asocia las categorías MoSCoW: 1. Should Have, 2. Could Have, 3. Won't Have con A. Opcionales que mejoran la experiencia, B. Quedan fuera del alcance inicial (para futuro), C. Importantes pero el sistema puede arrancar sin ellas.",
+                    "opciones": [
+                        "1-C, 2-A, 3-B",
+                        "1-B, 2-C, 3-A",
+                        "1-A, 2-B, 3-C"
+                    ],
+                    "respuestaCorrecta": "1-C, 2-A, 3-B",
+                    "retroalimentacion": "Muy bien. De mayor a menor prioridad.",
+                    "explicacion": "Should Have (Importante, pero no crítico), Could Have (Deseables/Opcionales), Won't Have (Descartados para esta iteración).",
+                    "conceptoRelacionado": "MoSCoW"
+                },
+                {
+                    "id": "10.7",
+                    "tema": "Triángulo de Hierro",
+                    "semana": 10,
+                    "nivel": "Medio",
+                    "tipo": "Casos prácticos",
+                    "pregunta": "El cliente exige añadir 10 nuevas pantallas complejas (Aumento de Alcance). Si el equipo se niega a extender la Fecha de Entrega (Tiempo) y no se contrata más personal (Costo), ¿qué sufrirá el impacto directo según la teoría?",
+                    "opciones": [
+                        "El código se escribirá más rápido por motivación.",
+                        "La Calidad (generando deuda técnica, bugs y software inestable).",
+                        "Nada sufrirá impacto."
+                    ],
+                    "respuestaCorrecta": "La Calidad (generando deuda técnica, bugs y software inestable).",
+                    "retroalimentacion": "Exacto. El triángulo de hierro no se puede romper sin destruir el centro.",
+                    "explicacion": "Aumentar el alcance sin ajustar el tiempo o costo obliga a reducir pruebas e incrementar fallos, degradando fuertemente la Calidad.",
+                    "conceptoRelacionado": "El Dilema del Triángulo de Hierro"
+                },
+                {
+                    "id": "10.8",
+                    "tema": "Negociación Técnica",
+                    "semana": 10,
+                    "nivel": "Medio",
+                    "tipo": "Selección múltiple con varias respuestas",
+                    "pregunta": "¿Qué tipo de 'Datos y Evidencia' debe mostrar un ingeniero para defender una prioridad de arquitectura?",
+                    "opciones": [
+                        "Su intuición y presentimientos personales.",
+                        "Métricas de uso de CPU o RAM que indican colapso.",
+                        "Reporte de vulnerabilidades de seguridad críticas.",
+                        "Pruebas de Carga que demuestran lentitud en picos de usuarios."
+                    ],
+                    "respuestaCorrecta": "Métricas de CPU, Vulnerabilidades y Pruebas de Carga.",
+                    "retroalimentacion": "Bien. 'Show me the data'.",
+                    "explicacion": "La negociación basada en datos (CPU, latencia, pruebas de estrés) elimina subjetividades y demuestra el impacto real a gerencia.",
+                    "conceptoRelacionado": "Negociación con Evidencia"
+                },
+                {
+                    "id": "10.9",
+                    "tema": "Prevención de Burnout",
+                    "semana": 10,
+                    "nivel": "Medio",
+                    "tipo": "Completar la oración",
+                    "pregunta": "Defender prioridades y establecer límites (Saber decir NO a cambios de último minuto) es crucial para evitar el ________ del equipo, garantizando un ritmo sostenible.",
+                    "opciones": [
+                        "Testing",
+                        "Agotamiento o Burnout",
+                        "Despliegue"
+                    ],
+                    "respuestaCorrecta": "Agotamiento o Burnout",
+                    "retroalimentacion": "Correcto. El líder protege la salud mental de su equipo.",
+                    "explicacion": "La comunicación asertiva previene el agotamiento (burnout), manteniendo un ritmo de desarrollo saludable y protegiendo la calidad mental.",
+                    "conceptoRelacionado": "Prevención Burnout"
+                },
+                {
+                    "id": "10.10",
+                    "tema": "Gestión de Incidentes Críticos",
+                    "semana": 10,
+                    "nivel": "Medio",
+                    "tipo": "Casos prácticos",
+                    "pregunta": "Viernes 3:00 PM. El servidor de base de datos de producción colapsa. ¿Qué deben hacer los programadores respecto a las tareas Ágiles y sprints que estaban haciendo?",
+                    "opciones": [
+                        "Seguir trabajando en la nueva pantalla de bienvenida.",
+                        "Efectuar un cambio instantáneo de prioridad, deteniendo tareas menores para enfocarse exclusivamente en restaurar el servicio.",
+                        "Irse a casa, porque su horario termina pronto."
+                    ],
+                    "respuestaCorrecta": "Efectuar un cambio instantáneo de prioridad, deteniendo tareas menores para enfocarse exclusivamente en restaurar el servicio.",
+                    "retroalimentacion": "Exacto. La producción caída es un 'Stop the world'.",
+                    "explicacion": "Ante un incidente crítico, las prioridades del Sprint cambian al instante para resolver la falla y proteger la operatividad y activos.",
+                    "conceptoRelacionado": "Incidentes Críticos"
+                },
+                {
+                    "id": "10.11",
+                    "tema": "Priorización Ágil",
+                    "semana": 10,
+                    "nivel": "Medio",
+                    "tipo": "Verdadero/Falso",
+                    "pregunta": "En las metodologías Ágiles (como Scrum), la priorización se realiza una sola vez al año y nunca se permite alterarla.",
+                    "opciones": [
+                        "Verdadero",
+                        "Falso"
+                    ],
+                    "respuestaCorrecta": "Falso",
+                    "retroalimentacion": "Correcto. En Agile, el Product Backlog se re-prioriza continuamente en cada Sprint.",
+                    "explicacion": "En metodologías ágiles el Product Backlog y el Sprint Planning permiten re-priorizar y adaptar funcionalidades al inicio de cada iteración corta.",
+                    "conceptoRelacionado": "Priorización Ágil"
+                },
+                {
+                    "id": "10.12",
+                    "tema": "Protección Profesional",
+                    "semana": 10,
+                    "nivel": "Medio",
+                    "tipo": "Selección múltiple",
+                    "pregunta": "¿Por qué el documento de 'Memoria Técnica Integral' es vital en el desarrollo?",
+                    "opciones": [
+                        "Solo para tener archivos pesados en el disco duro.",
+                        "Asegura la coherencia a largo plazo, documentando las decisiones y restricciones aceptadas, protegiendo profesionalmente al ingeniero.",
+                        "Para cobrar más horas de diseño."
+                    ],
+                    "respuestaCorrecta": "Asegura la coherencia a largo plazo, documentando las decisiones y restricciones aceptadas, protegiendo profesionalmente al ingeniero.",
+                    "retroalimentacion": "Bien. Si en dos años el cliente pregunta '¿Por qué no hicimos esto?', está en el acta.",
+                    "explicacion": "Documentar las decisiones técnicas y restricciones (Trazabilidad y Memoria Técnica) protege legal y profesionalmente al equipo frente a reclamos futuros.",
+                    "conceptoRelacionado": "Memoria Técnica"
+                },
+                {
+                    "id": "10.13",
+                    "tema": "Gestión de Presión",
+                    "semana": 10,
+                    "nivel": "Difícil",
+                    "tipo": "Casos prácticos",
+                    "pregunta": "Un jefe exige apurar el lanzamiento y pide que se salten todas las 'Pruebas Unitarias'. Como ingeniero resiliente y líder técnico, tú:",
+                    "opciones": [
+                        "Dices que sí, borrando las pruebas para contentarlo.",
+                        "Ignoras al jefe y te encierras.",
+                        "Con calma, explicas las métricas del riesgo de saltar pruebas, propones alternativas factibles de alcance reducido y te niegas a comprometer la estabilidad del núcleo."
+                    ],
+                    "respuestaCorrecta": "Con calma, explicas las métricas del riesgo de saltar pruebas, propones alternativas factibles de alcance reducido y te niegas a comprometer la estabilidad del núcleo.",
+                    "retroalimentacion": "Excelente. La postura asertiva y técnica ante el jefe.",
+                    "explicacion": "El manejo de la presión exige defender prácticas esenciales explicando los riesgos reales de deuda técnica al management con datos y alternativas.",
+                    "conceptoRelacionado": "Manejo de la Presión"
+                },
+                {
+                    "id": "10.14",
+                    "tema": "Incidentes Críticos",
+                    "semana": 10,
+                    "nivel": "Difícil",
+                    "tipo": "Ordenar pasos correctamente",
+                    "pregunta": "Ordena el flujo de gestión operativa durante un Incidente Crítico (Fallo de Producción):",
+                    "opciones": [
+                        "1. Recepción & Clasificación, 2. Comunicación con Stakeholders, 3. Asignación & Análisis de causa raíz, 4. Solución del Incidente, 5. Verificación & Seguimiento",
+                        "1. Solución del Incidente, 2. Comunicación, 3. Asignación, 4. Verificación",
+                        "1. Asignación, 2. Recepción, 3. Solución, 4. Verificación, 5. Comunicación"
+                    ],
+                    "respuestaCorrecta": "1. Recepción & Clasificación, 2. Comunicación con Stakeholders, 3. Asignación & Análisis de causa raíz, 4. Solución del Incidente, 5. Verificación & Seguimiento",
+                    "retroalimentacion": "Perfecto. Es el manual de crisis SRE estándar.",
+                    "explicacion": "Un incidente requiere primero Clasificarlo (Triage), Comunicar (Status), Analizar causas, Resolverlo, y finalmente Validar que está cerrado.",
+                    "conceptoRelacionado": "Gestión de Incidentes"
+                }
+            ]
+        },
+        {
+            "id": 11,
+            "titulo": "Diseño de Programas, Arquitectura y Evaluación",
+            "resumen": "Esta semana cruza el puente entre los requerimientos teóricos y la lógica técnica de las máquinas. Todo ingeniero debe aplicar 'Abstracción' para dominar la complejidad y 'Encapsulamiento' para proteger los datos internos. Las métricas de un código de alta calidad son una 'Alta Cohesión' (un módulo hace exactamente una sola cosa) y un 'Bajo Acoplamiento' (los módulos son independientes). A nivel superior, la 'Arquitectura de Software' dictamina si el sistema usará capas monolíticas o un enfoque distribuido como Microservicios. Los 'Patrones de Diseño' (MVC, Singleton, Observer) estandarizan soluciones a problemas universales. También se profundiza en la responsabilidad ética exigiendo 'Privacidad por Defecto' y minimización de datos. Finalmente, se entregan las rúbricas para evaluaciones técnicas exigiendo consistencia, trazabilidad de datos UML y uso de listas de verificación derivadas del estándar IEEE 830, previniendo errores como los 'agujeros negros' en los flujos.",
+            "palabrasClave": [
+                "Cohesión y Acoplamiento",
+                "Microservicios",
+                "Patrones de Diseño",
+                "MVC",
+                "Privacidad por Defecto",
+                "Rúbricas de Evaluación"
+            ],
+            "conceptos": [
+                {
+                    "nombre": "Abstracción y Encapsulamiento",
+                    "definicion": "La abstracción oculta la complejidad innecesaria centrándose en la esencia; el encapsulamiento protege el estado interno de alteraciones externas indebidas."
+                },
+                {
+                    "nombre": "Cohesión",
+                    "definicion": "Medida de concentración. Una Alta Cohesión indica que un módulo tiene un solo objetivo fuertemente definido."
+                },
+                {
+                    "nombre": "Acoplamiento",
+                    "definicion": "Nivel de dependencia. Un Bajo Acoplamiento es ideal porque indica que los módulos son independientes y un cambio no tumba el resto del sistema."
+                },
+                {
+                    "nombre": "Microservicios",
+                    "definicion": "Arquitectura donde la aplicación se divide en servicios pequeños e independientes que se comunican vía APIs, brindando máxima escalabilidad."
+                },
+                {
+                    "nombre": "Privacidad por Defecto",
+                    "definicion": "Principio ético donde la máxima protección de datos del usuario viene configurada de fábrica (Minimización de recopilación)."
+                }
+            ],
+            "preguntas": [
+                {
+                    "id": "11.1",
+                    "tema": "Principios de Diseño",
+                    "semana": 11,
+                    "nivel": "Fácil",
+                    "tipo": "Selección múltiple",
+                    "pregunta": "¿Qué busca el 'Encapsulamiento' en el diseño de programas orientados a objetos?",
+                    "opciones": [
+                        "Crear ventanas visuales más coloridas.",
+                        "Ocultar la complejidad interna, protegiendo la integridad de los datos para que el sistema exterior no los corrompa.",
+                        "Hacer que el código sea tan complejo que nadie lo entienda."
+                    ],
+                    "respuestaCorrecta": "Ocultar la complejidad interna, protegiendo la integridad de los datos para que el sistema exterior no los corrompa.",
+                    "retroalimentacion": "Bien. Actúa como el blindaje del módulo.",
+                    "explicacion": "El encapsulamiento oculta la implementación compleja y asegura la integridad de los datos internos protegiéndolos de acceso directo.",
+                    "conceptoRelacionado": "Encapsulamiento"
+                },
+                {
+                    "id": "11.2",
+                    "tema": "Métricas de Arquitectura",
+                    "semana": 11,
+                    "nivel": "Fácil",
+                    "tipo": "Completar la oración",
+                    "pregunta": "Según Ian Sommerville, el diseño óptimo de software requiere tener una ________ (donde el módulo realiza una sola tarea clara) y un Bajo Acoplamiento.",
+                    "opciones": [
+                        "Fusión Total",
+                        "Alta Cohesión",
+                        "Interferencia"
+                    ],
+                    "respuestaCorrecta": "Alta Cohesión",
+                    "retroalimentacion": "Exacto. Un módulo, un objetivo.",
+                    "explicacion": "Las métricas de oro son Alta Cohesión (relación temática fuerte dentro del módulo) y Bajo Acoplamiento (poca dependencia de externos).",
+                    "conceptoRelacionado": "Cohesión Alta"
+                },
+                {
+                    "id": "11.3",
+                    "tema": "Métricas de Arquitectura",
+                    "semana": 11,
+                    "nivel": "Fácil",
+                    "tipo": "Verdadero/Falso",
+                    "pregunta": "El 'Acoplamiento Alto' es excelente para el sistema, ya que los módulos están tan amarrados entre sí que si modificas uno, se caen los otros cinco.",
+                    "opciones": [
+                        "Verdadero",
+                        "Falso"
+                    ],
+                    "respuestaCorrecta": "Falso",
+                    "retroalimentacion": "Falso. El acoplamiento alto es un anti-patrón; se busca independencia.",
+                    "explicacion": "El Acoplamiento Alto crea una dependencia riesgosa, generando más fallos. Se persigue un Acoplamiento Bajo (módulos independientes).",
+                    "conceptoRelacionado": "Acoplamiento"
+                },
+                {
+                    "id": "11.4",
+                    "tema": "Arquitecturas y Patrones",
+                    "semana": 11,
+                    "nivel": "Fácil",
+                    "tipo": "Selección múltiple",
+                    "pregunta": "¿Qué ventaja principal ofrece la arquitectura de Microservicios frente al código tradicional monolítico?",
+                    "opciones": [
+                        "Usa un solo gran archivo de código gigante.",
+                        "Permite dividir la aplicación en servicios pequeños e independientes que escalan por separado mediante APIs.",
+                        "No permite usar internet."
+                    ],
+                    "respuestaCorrecta": "Permite dividir la aplicación en servicios pequeños e independientes que escalan por separado mediante APIs.",
+                    "retroalimentacion": "Correcto. Si el microservicio de 'Pagos' cae, el de 'Catálogo' sigue vivo.",
+                    "explicacion": "Microservicios aporta escalabilidad e independencia mediante servicios comunicados vía API, permitiendo a equipos trabajar modularmente.",
+                    "conceptoRelacionado": "Microservicios"
+                },
+                {
+                    "id": "11.5",
+                    "tema": "Ética Profesional",
+                    "semana": 11,
+                    "nivel": "Fácil",
+                    "tipo": "Verdadero/Falso",
+                    "pregunta": "El principio de 'Privacidad por Defecto' exige que el software proteja de manera automática los datos personales del usuario desde su primera interacción.",
+                    "opciones": [
+                        "Verdadero",
+                        "Falso"
+                    ],
+                    "respuestaCorrecta": "Verdadero",
+                    "retroalimentacion": "Excelente. Es el estándar legal moderno.",
+                    "explicacion": "Privacidad por defecto asegura protección automática, minimizando los datos requeridos por la aplicación.",
+                    "conceptoRelacionado": "Privacidad por Defecto"
+                },
+                {
+                    "id": "11.6",
+                    "tema": "Patrones de Diseño",
+                    "semana": 11,
+                    "nivel": "Medio",
+                    "tipo": "Relacionar columnas",
+                    "pregunta": "Relaciona el Patrón de Diseño con su uso: 1. Singleton, 2. Observer, 3. MVC con A. Notifica cambios a objetos dependientes, B. Separa la lógica (datos, interfaz, control), C. Garantiza una única instancia (acceso global).",
+                    "opciones": [
+                        "1-B, 2-C, 3-A",
+                        "1-A, 2-B, 3-C",
+                        "1-C, 2-A, 3-B"
+                    ],
+                    "respuestaCorrecta": "1-C, 2-A, 3-B",
+                    "retroalimentacion": "Bien hecho. Son los pilares del Gang of Four.",
+                    "explicacion": "Singleton = Una instancia única. Observer = Notifica eventos masivos. MVC = Modelo Vista Controlador.",
+                    "conceptoRelacionado": "Patrones de Diseño"
+                },
+                {
+                    "id": "11.7",
+                    "tema": "Interfaces de Usuario (UI)",
+                    "semana": 11,
+                    "nivel": "Medio",
+                    "tipo": "Selección múltiple con varias respuestas",
+                    "pregunta": "¿Qué características obligatorias define la clase para el 'Diseño de la Interfaz de Usuario'?",
+                    "opciones": [
+                        "Intuitivo (Navegable sin manual).",
+                        "Consistente (Diseño uniforme en la app).",
+                        "Complejo y Caótico (Para demostrar técnica).",
+                        "Accesible (Para todos los usuarios)."
+                    ],
+                    "respuestaCorrecta": "Intuitivo, Consistente y Accesible.",
+                    "retroalimentacion": "Exacto. La UX debe ser la menor fricción posible.",
+                    "explicacion": "Una UI debe ser Intuitiva (Lógica natural), Consistente (Uniformidad), Accesible y Fast-access.",
+                    "conceptoRelacionado": "Diseño UI"
+                },
+                {
+                    "id": "11.8",
+                    "tema": "Documentación Técnica",
+                    "semana": 11,
+                    "nivel": "Medio",
+                    "tipo": "Casos prácticos",
+                    "pregunta": "Entras a un nuevo proyecto donde el equipo original renunció y no dejaron UML, ni diccionario de datos, ni APIs documentadas. ¿Cómo se denomina técnicamente a esta situación problemática descrita en clase?",
+                    "opciones": [
+                        "El sistema es una 'Caja Negra' imposible de actualizar porque la memoria técnica se perdió.",
+                        "Una gran oportunidad.",
+                        "Arquitectura Monolítica."
+                    ],
+                    "respuestaCorrecta": "El sistema es una 'Caja Negra' imposible de actualizar porque la memoria técnica se perdió.",
+                    "retroalimentacion": "Correcto. Sin UML, rastrear código ajeno es una pesadilla de ingeniería.",
+                    "explicacion": "Sin documentación (Diagramas UML, APIs), el software se convierte en una caja negra donde el conocimiento se fuga.",
+                    "conceptoRelacionado": "Documentación Técnica"
+                },
+                {
+                    "id": "11.9",
+                    "tema": "Metodología de Pruebas y Errores",
+                    "semana": 11,
+                    "nivel": "Medio",
+                    "tipo": "Completar la oración",
+                    "pregunta": "Durante la evaluación del modelamiento (como DFDs), si un proceso llamado 'Validar Usuario' solo tiene flechas de entrada pero no saca información, el evaluador marcará este error como un ________.",
+                    "opciones": [
+                        "Ciclo FOR",
+                        "Agujero Negro (Black Hole)",
+                        "Patrón Observer"
+                    ],
+                    "respuestaCorrecta": "Agujero Negro (Black Hole)",
+                    "retroalimentacion": "Bien. Todo flujo en software requiere un output.",
+                    "explicacion": "El 'Agujero negro' ocurre cuando a un proceso solo le ingresan datos y no tiene flujos de salida funcionales.",
+                    "conceptoRelacionado": "Errores de Modelamiento"
+                },
+                {
+                    "id": "11.10",
+                    "tema": "Ética en Diseño",
+                    "semana": 11,
+                    "nivel": "Medio",
+                    "tipo": "Verdadero/Falso",
+                    "pregunta": "La 'Minimización de Datos' implica que la empresa debe recopilar hasta la información médica del usuario aunque solo sea para registrarse en un foro de videojuegos, para futuras ventas.",
+                    "opciones": [
+                        "Verdadero",
+                        "Falso"
+                    ],
+                    "respuestaCorrecta": "Falso",
+                    "retroalimentacion": "Correcto. Solo se debe recopilar lo estrictamente necesario.",
+                    "explicacion": "El principio de minimización estipula la recolección 'únicamente de información necesaria' para la operación.",
+                    "conceptoRelacionado": "Minimización de Datos"
+                },
+                {
+                    "id": "11.11",
+                    "tema": "Criterios de Evaluación y Rúbricas",
+                    "semana": 11,
+                    "nivel": "Difícil",
+                    "tipo": "Selección múltiple con varias respuestas",
+                    "pregunta": "¿Qué elementos juzga la Rúbrica para medir el 'Rigor Técnico' y la 'Coherencia Lógica' del ingeniero?",
+                    "opciones": [
+                        "Uso correcto de notaciones UML.",
+                        "Trazabilidad y alineación exacta entre los requerimientos y casos de uso.",
+                        "Redacción de chistes en el código.",
+                        "Ausencia de contradicciones lógicas."
+                    ],
+                    "respuestaCorrecta": "Notaciones UML, Trazabilidad, Ausencia de contradicciones.",
+                    "retroalimentacion": "Excelente. La precisión formal lo es todo en la evaluación.",
+                    "explicacion": "La rúbrica juzga: Rigor (Estándares UML), Coherencia (Trazabilidad, ausencia de contradicciones) y Calidad Documental.",
+                    "conceptoRelacionado": "Criterios Rúbrica"
+                },
+                {
+                    "id": "11.12",
+                    "tema": "Metodología de Prueba Práctica",
+                    "semana": 11,
+                    "nivel": "Difícil",
+                    "tipo": "Ordenar pasos correctamente",
+                    "pregunta": "Ordena el flujo de trabajo para atacar un problema práctico o examen de diseño:",
+                    "opciones": [
+                        "1. Elaboración de diagramas, 2. Comprensión Escenario, 3. Presentación",
+                        "1. Comprensión del Escenario (narrativa ambigua), 2. Identificación de Requerimientos, 3. Elaboración de Diagramas (UML/DFD), 4. Presentación de Solución técnica",
+                        "1. Presentación, 2. Diagramas, 3. Requerimientos, 4. Narrativa"
+                    ],
+                    "respuestaCorrecta": "1. Comprensión del Escenario (narrativa ambigua), 2. Identificación de Requerimientos, 3. Elaboración de Diagramas (UML/DFD), 4. Presentación de Solución técnica",
+                    "retroalimentacion": "Perfecto. Leer bien, identificar, modelar y presentar.",
+                    "explicacion": "Pasos metodológicos: Analizar el caso (Comprensión) -> Extraer Req Funcionales (Identificación) -> UML/Bases (Elaboración) -> Especificaciones Claras (Presentación).",
+                    "conceptoRelacionado": "Prueba Práctica"
+                },
+                {
+                    "id": "11.13",
+                    "tema": "Gestión del Tiempo",
+                    "semana": 11,
+                    "nivel": "Difícil",
+                    "tipo": "Casos prácticos",
+                    "pregunta": "Estás en el examen final o ante un cliente apresurado. La clase sugiere un enfoque estratégico para no quedarse sin tiempo. ¿Qué priorizas?",
+                    "opciones": [
+                        "Hacer la interfaz gráfica perfecta pero dejar la base de datos vacía.",
+                        "Definir primero la Arquitectura Global y los Módulos Clave (priorizar lógica), dejando los refinamientos estéticos para el final, garantizando un Producto Mínimo Viable (MVP).",
+                        "Llorar."
+                    ],
+                    "respuestaCorrecta": "Definir primero la Arquitectura Global y los Módulos Clave (priorizar lógica), dejando los refinamientos estéticos para el final, garantizando un Producto Mínimo Viable (MVP).",
+                    "retroalimentacion": "Muy bien. El esqueleto antes que la pintura.",
+                    "explicacion": "Se aconseja priorizar la estructura y módulos críticos para obtener un Producto Mínimo Viable completo, dejando los detalles visuales como refinamiento final.",
+                    "conceptoRelacionado": "Gestión del Tiempo"
+                }
+            ]
+        },
+        {
+            "id": 12,
+            "titulo": "Estructuras, Diseño de I/O y Generación de Código con IA",
+            "resumen": "Esta semana culmina con las bases estructurales del código y su validación: lógica secuencial, selectiva (if-then-else) y repetitiva (bucles). Se enseña a evitar el 'código espagueti' y los destructivos 'bucles infinitos'. La seguridad toma el centro del escenario con la Validación de Entradas (rango, formato, presencia y consistencia) la cual debe obligatoriamente procesarse tanto en Cliente (para feedback veloz UX) como en el Servidor (para blindar contra inyecciones de código). El Diseño de Salidas evalúa cómo el sistema entrega valor usando formatos aptos para humanos (PDF) y máquinas (JSON). Finalmente, explora el impacto revolucionario de la IA Generativa, la cual acelera el 'boilerplate code', automatiza testing intensivo y sugiere refactorizaciones de 'malos olores'. Sin embargo, se decreta que la IA sufre de 'Alucinaciones', por lo que el humano asume un nuevo rol vital de curador, supervisor ético y arquitecto maestro.",
+            "palabrasClave": [
+                "Estructuras de Control",
+                "Validación de Entradas",
+                "Diseño de Salidas",
+                "JSON",
+                "IA Generativa (Gen AI)",
+                "Copiloto",
+                "Alucinaciones IA"
+            ],
+            "conceptos": [
+                {
+                    "nombre": "Estructuras de Control",
+                    "definicion": "El andamiaje lógico de un programa: Selectivas (toma de decisiones lógicas if-else) y Repetitivas (ejecución reiterada o bucles)."
+                },
+                {
+                    "nombre": "Validación Cliente/Servidor",
+                    "definicion": "Filtros de datos obligatorios. En el cliente mejoran UX y red; en el servidor blindan la base de datos contra inyecciones y hackeos."
+                },
+                {
+                    "nombre": "JSON",
+                    "definicion": "Formato estructurado e interoperable para intercambio de datos entre sistemas, APIs e Inteligencias Artificiales."
+                },
+                {
+                    "nombre": "IA Generativa y Testing",
+                    "definicion": "Uso de Inteligencia Artificial como un 'copiloto' que genera código base repetitivo (boilerplate) y automatiza baterías masivas de pruebas para blindar el software."
+                },
+                {
+                    "nombre": "Curador de Código / Human-in-the-Loop",
+                    "definicion": "El rol ético del ingeniero moderno, responsable de validar la lógica escrita por la IA ante posibles sesgos o 'alucinaciones' para evitar desastres en producción."
+                }
+            ],
+            "preguntas": [
+                {
+                    "id": "12.1",
+                    "tema": "Lógica de Control",
+                    "semana": 12,
+                    "nivel": "Fácil",
+                    "tipo": "Selección múltiple",
+                    "pregunta": "¿Qué evita una correcta aplicación de Estructuras de Control (Selectivas/Secuenciales) apoyada por modularidad?",
+                    "opciones": [
+                        "Previene el 'código espagueti', mejorando masivamente la legibilidad y mantenimiento.",
+                        "Destruye la base de datos.",
+                        "Permite a la aplicación minar criptomonedas."
+                    ],
+                    "respuestaCorrecta": "Previene el 'código espagueti', mejorando masivamente la legibilidad y mantenimiento.",
+                    "retroalimentacion": "Bien. La legibilidad de Sommerville es ley.",
+                    "explicacion": "Una estructura clara modular previene el código espagueti facilitando la comprensión y las reglas de negocio.",
+                    "conceptoRelacionado": "Estructuras de Control"
+                },
+                {
+                    "id": "12.2",
+                    "tema": "Bucles y Riesgos",
+                    "semana": 12,
+                    "nivel": "Fácil",
+                    "tipo": "Completar la oración",
+                    "pregunta": "Al diseñar iteraciones (for/while), el ingeniero debe verificar estrictamente la condición de salida para evitar los desastrosos ________, los cuales bloquean recursos del servidor.",
+                    "opciones": [
+                        "Bucles Infinitos",
+                        "Módulos Ciegos",
+                        "Formatos JSON"
+                    ],
+                    "respuestaCorrecta": "Bucles Infinitos",
+                    "retroalimentacion": "Exacto. Un bucle sin fin consume la memoria hasta colapsar el sistema.",
+                    "explicacion": "El principal riesgo técnico en estructuras repetitivas es programar un bucle infinito que bloquee el servidor.",
+                    "conceptoRelacionado": "Bucles Infinitos"
+                },
+                {
+                    "id": "12.3",
+                    "tema": "Validación de Entradas",
+                    "semana": 12,
+                    "nivel": "Fácil",
+                    "tipo": "Verdadero/Falso",
+                    "pregunta": "Comprobar que un correo introducido tenga arroba (@) es un ejemplo de 'Validación de Formato'.",
+                    "opciones": [
+                        "Verdadero",
+                        "Falso"
+                    ],
+                    "respuestaCorrecta": "Verdadero",
+                    "retroalimentacion": "Correcto. Utiliza expresiones regulares para el patrón.",
+                    "explicacion": "Validación de formato comprueba que los datos sigan un patrón esperado (ej. un email o teléfono válido).",
+                    "conceptoRelacionado": "Validación de Formato"
+                },
+                {
+                    "id": "12.4",
+                    "tema": "Formatos de Salida",
+                    "semana": 12,
+                    "nivel": "Fácil",
+                    "tipo": "Selección múltiple",
+                    "pregunta": "¿Qué formato de salida es el estándar en la industria para el intercambio de datos estructurados entre APIs y agentes de IA?",
+                    "opciones": [
+                        "Impresión de Pantalla (JPG)",
+                        "Mensaje de texto SMS",
+                        "JSON ({ })"
+                    ],
+                    "respuestaCorrecta": "JSON ({ })",
+                    "retroalimentacion": "Excelente. Es el oxígeno de las aplicaciones web y móviles.",
+                    "explicacion": "JSON se emplea para interoperabilidad e intercambio de datos estructurados entre sistemas y modelos de Inteligencia Artificial.",
+                    "conceptoRelacionado": "JSON"
+                },
+                {
+                    "id": "12.5",
+                    "tema": "Rol de la Inteligencia Artificial",
+                    "semana": 12,
+                    "nivel": "Fácil",
+                    "tipo": "Verdadero/Falso",
+                    "pregunta": "La Inteligencia Artificial Generativa asume toda la responsabilidad legal, de diseño y arquitectura, reemplazando completamente al ingeniero en el proceso.",
+                    "opciones": [
+                        "Verdadero",
+                        "Falso"
+                    ],
+                    "respuestaCorrecta": "Falso",
+                    "retroalimentacion": "Correcto. El ingeniero es el responsable legal último.",
+                    "explicacion": "La IA actúa como copiloto; la responsabilidad de diseño, seguridad y decisiones recae siempre en el humano.",
+                    "conceptoRelacionado": "El Rol del Ingeniero y la IA"
+                },
+                {
+                    "id": "12.6",
+                    "tema": "Capa Cliente vs Servidor",
+                    "semana": 12,
+                    "nivel": "Medio",
+                    "tipo": "Relacionar columnas",
+                    "pregunta": "Asocia la ubicación de la Validación de Datos con su propósito: 1. Capa de Cliente (Frontend), 2. Capa de Servidor (Backend). con A. Previene Inyecciones SQL y manipulaciones directas, B. Da feedback inmediato visual al usuario sin gastar internet.",
+                    "opciones": [
+                        "1-B, 2-A",
+                        "1-A, 2-B"
+                    ],
+                    "respuestaCorrecta": "1-B, 2-A",
+                    "retroalimentacion": "Perfecto. El Front mejora UX; el Back da la seguridad dura.",
+                    "explicacion": "Cliente provee feedback inmediato y reduce peticiones de red. Servidor audita contra manipulación e inyección maligna.",
+                    "conceptoRelacionado": "Validación Cliente/Servidor"
+                },
+                {
+                    "id": "12.7",
+                    "tema": "Validación de Entradas",
+                    "semana": 12,
+                    "nivel": "Medio",
+                    "tipo": "Casos prácticos",
+                    "pregunta": "El software bancario verifica que la 'Fecha de Nacimiento' del prestatario no sea mayor a la 'Fecha Actual'. ¿Qué tipo de estrategia de validación específica se usó?",
+                    "opciones": [
+                        "Validación de Formato",
+                        "Validación de Consistencia (relaciones lógicas)",
+                        "Validación de Presencia"
+                    ],
+                    "respuestaCorrecta": "Validación de Consistencia (relaciones lógicas)",
+                    "retroalimentacion": "Excelente. Compara lógica entre dos datos interconectados.",
+                    "explicacion": "Validación de consistencia compara relaciones lógicas entre campos, como asegurarse de que fechas encajen en la temporalidad.",
+                    "conceptoRelacionado": "Validación de Consistencia"
+                },
+                {
+                    "id": "12.8",
+                    "tema": "Diseño de Salidas (Output)",
+                    "semana": 12,
+                    "nivel": "Medio",
+                    "tipo": "Selección múltiple con varias respuestas",
+                    "pregunta": "¿Qué cualidades críticas debe tener el 'Diseño de Salidas' del sistema para aportar verdadero valor a la empresa gerencial?",
+                    "opciones": [
+                        "Claridad visual para rápida comprensión.",
+                        "Desbordar al usuario con millones de datos innecesarios.",
+                        "Oportunidad (llegar en el momento exacto para tomar decisiones).",
+                        "Relevancia (filtrar anomalías)."
+                    ],
+                    "respuestaCorrecta": "Claridad visual, Oportunidad y Relevancia.",
+                    "retroalimentacion": "Muy bien. Las salidas deben informar, no inundar de ruido.",
+                    "explicacion": "Los pilares del Output Design son Claridad Visual, Oportunidad (tiempo preciso) y Relevancia (evitar infoxicación).",
+                    "conceptoRelacionado": "Diseño de Salidas"
+                },
+                {
+                    "id": "12.9",
+                    "tema": "Ventajas de la Gen AI",
+                    "semana": 12,
+                    "nivel": "Medio",
+                    "tipo": "Completar la oración",
+                    "pregunta": "Uno de los usos más potentes de la IA Generativa es que actúa como un ________ técnico en tiempo real, identificando 'malos olores' en el código para sugerir optimizaciones automáticas.",
+                    "opciones": [
+                        "Juez Penal",
+                        "Auditor o Supervisor",
+                        "Cliente"
+                    ],
+                    "respuestaCorrecta": "Auditor o Supervisor",
+                    "retroalimentacion": "Exacto. Revisa, detecta redundancia y audita.",
+                    "explicacion": "La IA actúa como un auditor técnico continuo, detectando 'code smells' para sugerir refactorización y mejoras de diseño.",
+                    "conceptoRelacionado": "Refactorización IA"
+                },
+                {
+                    "id": "12.10",
+                    "tema": "Riesgos Tecnológicos IA",
+                    "semana": 12,
+                    "nivel": "Medio",
+                    "tipo": "Casos prácticos",
+                    "pregunta": "Usas la IA para programar la estructura base de tu backend bancario. El código parece perfecto, pero la IA inventó una librería criptográfica inexistente. Este problema se denomina formalmente:",
+                    "opciones": [
+                        "Optimización de RAM",
+                        "Alucinación de la IA",
+                        "Boilerplate"
+                    ],
+                    "respuestaCorrecta": "Alucinación de la IA",
+                    "retroalimentacion": "Perfecto. Es la falla central por la cual se necesita un ingeniero revisor.",
+                    "explicacion": "Las 'Alucinaciones' ocurren cuando un modelo LLM inventa información, librerías o funciones aparentando seguridad absoluta, representando un riesgo crítico.",
+                    "conceptoRelacionado": "Alucinaciones IA"
+                },
+                {
+                    "id": "12.11",
+                    "tema": "Generación Automática",
+                    "semana": 12,
+                    "nivel": "Medio",
+                    "tipo": "Verdadero/Falso",
+                    "pregunta": "En el testing de software, la Inteligencia Artificial no tiene capacidad para generar baterías completas de pruebas automatizadas (Edge Cases), debiendo el humano tipear manualmente cada caso.",
+                    "opciones": [
+                        "Verdadero",
+                        "Falso"
+                    ],
+                    "respuestaCorrecta": "Falso",
+                    "retroalimentacion": "Bien. La IA es fenomenal simulando tests infinitos.",
+                    "explicacion": "La IA tiene gran capacidad en la automatización de Casos de Prueba, incluyendo el diseño masivo de Edge Cases (límite).",
+                    "conceptoRelacionado": "IA en Testing"
+                },
+                {
+                    "id": "12.12",
+                    "tema": "Flujo SDLC con IA",
+                    "semana": 12,
+                    "nivel": "Difícil",
+                    "tipo": "Ordenar pasos correctamente",
+                    "pregunta": "Ordena el ciclo recomendado para Generación de Código asistido por IA (Gen AI):",
+                    "opciones": [
+                        "1. Definir Requerimiento (Prompting), 2. Generar Código (IA), 3. Revisar Calidad (Seguridad Humana), 4. Integrar al Sistema (Arquitectura)",
+                        "1. Generar Código, 2. Integrar al Sistema, 3. Revisar, 4. Definir",
+                        "1. Definir, 2. Integrar, 3. Generar, 4. Revisar"
+                    ],
+                    "respuestaCorrecta": "1. Definir Requerimiento (Prompting), 2. Generar Código (IA), 3. Revisar Calidad (Seguridad Humana), 4. Integrar al Sistema (Arquitectura)",
+                    "retroalimentacion": "Excelente. No olvides nunca el paso 3 (Revisión de seguridad).",
+                    "explicacion": "El flujo seguro es: Instrucción natural (Prompt) -> Creación IA -> Revisión de vulnerabilidades humana -> Integración de módulos.",
+                    "conceptoRelacionado": "Generación de Grupos de Código"
+                },
+                {
+                    "id": "12.13",
+                    "tema": "Nuevo Rol Profesional",
+                    "semana": 12,
+                    "nivel": "Difícil",
+                    "tipo": "Selección múltiple con varias respuestas",
+                    "pregunta": "El paradigma tecnológico de 2026 dicta que el ingeniero ya no es solo un 'tecleador'. ¿Cuáles son los nuevos roles que asume?",
+                    "opciones": [
+                        "Abandonar la profesión técnica.",
+                        "Curador de código generado (Human-in-the-loop).",
+                        "Especialista en revisión ética y validación contra alucinaciones.",
+                        "Diseñador de alto nivel de lógica de negocio y Prompt Engineering."
+                    ],
+                    "respuestaCorrecta": "Curador de código, Revisión ética y Diseñador de alto nivel.",
+                    "retroalimentacion": "Muy bien. El valor intelectual se desplaza del 'tipeo' a la arquitectura validada.",
+                    "explicacion": "Con la Gen AI, el ingeniero se vuelve 'Human-in-the-loop' encargado de validar, estructurar arquitectura de alto nivel y evaluar responsabilidades éticas y de seguridad.",
+                    "conceptoRelacionado": "Nuevo Rol del Ingeniero"
+                }
+            ]
+        }
+    ]
+}
